@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>mongo_ruby_driver</title>
+  </head>
+  <body>
+    <div class="container my-3">
+      <ol class="breadcrumb">
+  <li class="breadcrumb-item"><a href=".">Home</a></li>
+  <li class="breadcrumb-item active">mongo_ruby_driver</li>
+</ol>
+
+<ul class="nav nav-tabs mb-3" role="tablist">
+    <li class="nav-item">
+      <a class="nav-link active" id="default-tab" data-toggle="tab" href="#default" role="tab">デフォルト</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link " id="sorted-tab" data-toggle="tab" href="#sorted" role="tab">文字数順</a>
+    </li>
+</ul>
+
+<div class="tab-content">
+    <div class="tab-pane fade show active" id="default" role="tabpanel">
+      <table class="table table-hover">
+        <thead>
+          <tr>
+            <th class="index text-right">#</th>
+            <th>タイトル</th>
+            <th class="count text-right">文字数</th>
+          </tr>
+        </thead>
+        <tbody>
+            <tr>
+              <td class="text-right">1</td>
+              <td>
+                <a target="_blank" href="https://docs.mongodb.com/ruby-driver/current/whats-new/">What’s New</a>
+              </td>
+              <td class="text-right">114</td>
+            </tr>
+            <tr>
+              <td class="text-right">2</td>
+              <td>
+                <a target="_blank" href="https://docs.mongodb.com/ruby-driver/current/installation/">Installation</a>
+              </td>
+              <td class="text-right">1,226</td>
+            </tr>
+            <tr>
+              <td class="text-right">3</td>
+              <td>
+                <a target="_blank" href="https://docs.mongodb.com/ruby-driver/current/quick-start/">Quick Start</a>
+              </td>
+              <td class="text-right">4,753</td>
+            </tr>
+            <tr>
+              <td class="text-right">4</td>
+              <td>
+                <a target="_blank" href="https://docs.mongodb.com/ruby-driver/current/tutorials/ruby-driver-create-client/">Creating a Client</a>
+              </td>
+              <td class="text-right">29,404</td>
+            </tr>
+            <tr>
+              <td class="text-right">5</td>
+              <td>
+                <a target="_blank" href="https://docs.mongodb.com/ruby-driver/current/tutorials/ruby-driver-authentication/">Authentication</a>
+              </td>
+              <td class="text-right">3,675</td>
+            </tr>
+            <tr>
+              <td class="text-right">6</td>
+              <td>
+                <a target="_blank" href="https://docs.mongodb.com/ruby-driver/current/tutorials/ruby-driver-crud-operations/">CRUD Operations</a>
+              </td>
+              <td class="text-right">15,534</td>
+            </tr>
+            <tr>
+              <td class="text-right">7</td>
+              <td>
+                <a target="_blank" href="https://docs.mongodb.com/ruby-driver/current/tutorials/ruby-driver-collection-tasks/">Collections</a>
+              </td>
+              <td class="text-right">2,971</td>
+            </tr>
+            <tr>
+              <td class="text-right">8</td>
+              <td>
+                <a target="_blank" href="https://docs.mongodb.com/ruby-driver/current/tutorials/ruby-driver-projections/">Projections</a>
+              </td>
+              <td class="text-right">1,296</td>
+            </tr>
+            <tr>
+              <td class="text-right">9</td>
+              <td>
+                <a target="_blank" href="https://docs.mongodb.com/ruby-driver/current/tutorials/ruby-driver-sessions/">Sessions</a>
+              </td>
+              <td class="text-right">3,754</td>
+            </tr>
+            <tr>
+              <td class="text-right">10</td>
+              <td>
+                <a target="_blank" href="https://docs.mongodb.com/ruby-driver/current/tutorials/ruby-driver-transactions/">Transactions</a>
+              </td>
+              <td class="text-right">4,031</td>
+            </tr>
+            <tr>
+              <td class="text-right">11</td>
+              <td>
+                <a target="_blank" href="https://docs.mongodb.com/ruby-driver/current/tutorials/ruby-driver-change-streams/">Change Streams</a>
+              </td>
+              <td class="text-right">4,349</td>
+            </tr>
+            <tr>
+              <td class="text-right">12</td>
+              <td>
+                <a target="_blank" href="https://docs.mongodb.com/ruby-driver/current/tutorials/ruby-driver-database-tasks/">Databases</a>
+              </td>
+              <td class="text-right">876</td>
+            </tr>
+            <tr>
+              <td class="text-right">13</td>
+              <td>
+                <a target="_blank" href="https://docs.mongodb.com/ruby-driver/current/tutorials/ruby-driver-monitoring/">Monitoring</a>
+              </td>
+              <td class="text-right">11,752</td>
+            </tr>
+            <tr>
+              <td class="text-right">14</td>
+              <td>
+                <a target="_blank" href="https://docs.mongodb.com/ruby-driver/current/tutorials/ruby-driver-indexing/">Indexing</a>
+              </td>
+              <td class="text-right">2,183</td>
+            </tr>
+            <tr>
+              <td class="text-right">15</td>
+              <td>
+                <a target="_blank" href="https://docs.mongodb.com/ruby-driver/current/tutorials/ruby-driver-collations/">Collations</a>
+              </td>
+              <td class="text-right">6,674</td>
+            </tr>
+            <tr>
+              <td class="text-right">16</td>
+              <td>
+                <a target="_blank" href="https://docs.mongodb.com/ruby-driver/current/tutorials/ruby-driver-aggregation/">Aggregation</a>
+              </td>
+              <td class="text-right">2,622</td>
+            </tr>
+            <tr>
+              <td class="text-right">17</td>
+              <td>
+                <a target="_blank" href="https://docs.mongodb.com/ruby-driver/current/tutorials/ruby-driver-bulk-operations/">Bulk Operations</a>
+              </td>
+              <td class="text-right">1,258</td>
+            </tr>
+            <tr>
+              <td class="text-right">18</td>
+              <td>
+                <a target="_blank" href="https://docs.mongodb.com/ruby-driver/current/tutorials/ruby-driver-text-search/">Text Search</a>
+              </td>
+              <td class="text-right">809</td>
+            </tr>
+            <tr>
+              <td class="text-right">19</td>
+              <td>
+                <a target="_blank" href="https://docs.mongodb.com/ruby-driver/current/tutorials/ruby-driver-geospatial-search/">Geospatial Search</a>
+              </td>
+              <td class="text-right">1,704</td>
+            </tr>
+            <tr>
+              <td class="text-right">20</td>
+              <td>
+                <a target="_blank" href="https://docs.mongodb.com/ruby-driver/current/tutorials/ruby-driver-gridfs/">GridFS</a>
+              </td>
+              <td class="text-right">6,027</td>
+            </tr>
+            <tr>
+              <td class="text-right">21</td>
+              <td>
+                <a target="_blank" href="https://docs.mongodb.com/ruby-driver/current/bson-tutorials/">BSON</a>
+              </td>
+              <td class="text-right">234</td>
+            </tr>
+            <tr>
+              <td class="text-right">22</td>
+              <td>
+                <a target="_blank" href="https://docs.mongodb.com/ruby-driver/current/reference/driver-compatibility/">Driver Compatibility</a>
+              </td>
+              <td class="text-right">2,246</td>
+            </tr>
+            <tr>
+              <td class="text-right">23</td>
+              <td>
+                <a target="_blank" href="https://docs.mongodb.com/ruby-driver/current/reference/additional-resources/">Additional Resources</a>
+              </td>
+              <td class="text-right">2,928</td>
+            </tr>
+            <tr>
+              <td class="text-right">24</td>
+              <td>
+                <a target="_blank" href="https://docs.mongodb.com/ruby-driver/current/contribute/">Contribute to the Driver</a>
+              </td>
+              <td class="text-right">868</td>
+            </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="tab-pane fade " id="sorted" role="tabpanel">
+      <table class="table table-hover">
+        <thead>
+          <tr>
+            <th class="index text-right">#</th>
+            <th>タイトル</th>
+            <th class="count text-right">文字数</th>
+          </tr>
+        </thead>
+        <tbody>
+            <tr>
+              <td class="text-right">4</td>
+              <td>
+                <a target="_blank" href="https://docs.mongodb.com/ruby-driver/current/tutorials/ruby-driver-create-client/">Creating a Client</a>
+              </td>
+              <td class="text-right">29,404</td>
+            </tr>
+            <tr>
+              <td class="text-right">6</td>
+              <td>
+                <a target="_blank" href="https://docs.mongodb.com/ruby-driver/current/tutorials/ruby-driver-crud-operations/">CRUD Operations</a>
+              </td>
+              <td class="text-right">15,534</td>
+            </tr>
+            <tr>
+              <td class="text-right">13</td>
+              <td>
+                <a target="_blank" href="https://docs.mongodb.com/ruby-driver/current/tutorials/ruby-driver-monitoring/">Monitoring</a>
+              </td>
+              <td class="text-right">11,752</td>
+            </tr>
+            <tr>
+              <td class="text-right">15</td>
+              <td>
+                <a target="_blank" href="https://docs.mongodb.com/ruby-driver/current/tutorials/ruby-driver-collations/">Collations</a>
+              </td>
+              <td class="text-right">6,674</td>
+            </tr>
+            <tr>
+              <td class="text-right">20</td>
+              <td>
+                <a target="_blank" href="https://docs.mongodb.com/ruby-driver/current/tutorials/ruby-driver-gridfs/">GridFS</a>
+              </td>
+              <td class="text-right">6,027</td>
+            </tr>
+            <tr>
+              <td class="text-right">3</td>
+              <td>
+                <a target="_blank" href="https://docs.mongodb.com/ruby-driver/current/quick-start/">Quick Start</a>
+              </td>
+              <td class="text-right">4,753</td>
+            </tr>
+            <tr>
+              <td class="text-right">11</td>
+              <td>
+                <a target="_blank" href="https://docs.mongodb.com/ruby-driver/current/tutorials/ruby-driver-change-streams/">Change Streams</a>
+              </td>
+              <td class="text-right">4,349</td>
+            </tr>
+            <tr>
+              <td class="text-right">10</td>
+              <td>
+                <a target="_blank" href="https://docs.mongodb.com/ruby-driver/current/tutorials/ruby-driver-transactions/">Transactions</a>
+              </td>
+              <td class="text-right">4,031</td>
+            </tr>
+            <tr>
+              <td class="text-right">9</td>
+              <td>
+                <a target="_blank" href="https://docs.mongodb.com/ruby-driver/current/tutorials/ruby-driver-sessions/">Sessions</a>
+              </td>
+              <td class="text-right">3,754</td>
+            </tr>
+            <tr>
+              <td class="text-right">5</td>
+              <td>
+                <a target="_blank" href="https://docs.mongodb.com/ruby-driver/current/tutorials/ruby-driver-authentication/">Authentication</a>
+              </td>
+              <td class="text-right">3,675</td>
+            </tr>
+            <tr>
+              <td class="text-right">7</td>
+              <td>
+                <a target="_blank" href="https://docs.mongodb.com/ruby-driver/current/tutorials/ruby-driver-collection-tasks/">Collections</a>
+              </td>
+              <td class="text-right">2,971</td>
+            </tr>
+            <tr>
+              <td class="text-right">23</td>
+              <td>
+                <a target="_blank" href="https://docs.mongodb.com/ruby-driver/current/reference/additional-resources/">Additional Resources</a>
+              </td>
+              <td class="text-right">2,928</td>
+            </tr>
+            <tr>
+              <td class="text-right">16</td>
+              <td>
+                <a target="_blank" href="https://docs.mongodb.com/ruby-driver/current/tutorials/ruby-driver-aggregation/">Aggregation</a>
+              </td>
+              <td class="text-right">2,622</td>
+            </tr>
+            <tr>
+              <td class="text-right">22</td>
+              <td>
+                <a target="_blank" href="https://docs.mongodb.com/ruby-driver/current/reference/driver-compatibility/">Driver Compatibility</a>
+              </td>
+              <td class="text-right">2,246</td>
+            </tr>
+            <tr>
+              <td class="text-right">14</td>
+              <td>
+                <a target="_blank" href="https://docs.mongodb.com/ruby-driver/current/tutorials/ruby-driver-indexing/">Indexing</a>
+              </td>
+              <td class="text-right">2,183</td>
+            </tr>
+            <tr>
+              <td class="text-right">19</td>
+              <td>
+                <a target="_blank" href="https://docs.mongodb.com/ruby-driver/current/tutorials/ruby-driver-geospatial-search/">Geospatial Search</a>
+              </td>
+              <td class="text-right">1,704</td>
+            </tr>
+            <tr>
+              <td class="text-right">8</td>
+              <td>
+                <a target="_blank" href="https://docs.mongodb.com/ruby-driver/current/tutorials/ruby-driver-projections/">Projections</a>
+              </td>
+              <td class="text-right">1,296</td>
+            </tr>
+            <tr>
+              <td class="text-right">17</td>
+              <td>
+                <a target="_blank" href="https://docs.mongodb.com/ruby-driver/current/tutorials/ruby-driver-bulk-operations/">Bulk Operations</a>
+              </td>
+              <td class="text-right">1,258</td>
+            </tr>
+            <tr>
+              <td class="text-right">2</td>
+              <td>
+                <a target="_blank" href="https://docs.mongodb.com/ruby-driver/current/installation/">Installation</a>
+              </td>
+              <td class="text-right">1,226</td>
+            </tr>
+            <tr>
+              <td class="text-right">12</td>
+              <td>
+                <a target="_blank" href="https://docs.mongodb.com/ruby-driver/current/tutorials/ruby-driver-database-tasks/">Databases</a>
+              </td>
+              <td class="text-right">876</td>
+            </tr>
+            <tr>
+              <td class="text-right">24</td>
+              <td>
+                <a target="_blank" href="https://docs.mongodb.com/ruby-driver/current/contribute/">Contribute to the Driver</a>
+              </td>
+              <td class="text-right">868</td>
+            </tr>
+            <tr>
+              <td class="text-right">18</td>
+              <td>
+                <a target="_blank" href="https://docs.mongodb.com/ruby-driver/current/tutorials/ruby-driver-text-search/">Text Search</a>
+              </td>
+              <td class="text-right">809</td>
+            </tr>
+            <tr>
+              <td class="text-right">21</td>
+              <td>
+                <a target="_blank" href="https://docs.mongodb.com/ruby-driver/current/bson-tutorials/">BSON</a>
+              </td>
+              <td class="text-right">234</td>
+            </tr>
+            <tr>
+              <td class="text-right">1</td>
+              <td>
+                <a target="_blank" href="https://docs.mongodb.com/ruby-driver/current/whats-new/">What’s New</a>
+              </td>
+              <td class="text-right">114</td>
+            </tr>
+        </tbody>
+      </table>
+    </div>
+</div>
+
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>

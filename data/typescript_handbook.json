@@ -1,0 +1,219 @@
+[
+  {
+    "category": "Handbook",
+    "index": 1,
+    "title": "Basic Types",
+    "url": "https://www.typescriptlang.org/docs/handbook/basic-types.html",
+    "char_count": 8088
+  },
+  {
+    "category": "Handbook",
+    "index": 2,
+    "title": "Variable Declarations",
+    "url": "https://www.typescriptlang.org/docs/handbook/variable-declarations.html",
+    "char_count": 14957
+  },
+  {
+    "category": "Handbook",
+    "index": 3,
+    "title": "Interfaces",
+    "url": "https://www.typescriptlang.org/docs/handbook/interfaces.html",
+    "char_count": 16322
+  },
+  {
+    "category": "Handbook",
+    "index": 4,
+    "title": "Classes",
+    "url": "https://www.typescriptlang.org/docs/handbook/classes.html",
+    "char_count": 14820
+  },
+  {
+    "category": "Handbook",
+    "index": 5,
+    "title": "Functions",
+    "url": "https://www.typescriptlang.org/docs/handbook/functions.html",
+    "char_count": 15273
+  },
+  {
+    "category": "Handbook",
+    "index": 6,
+    "title": "Generics",
+    "url": "https://www.typescriptlang.org/docs/handbook/generics.html",
+    "char_count": 10053
+  },
+  {
+    "category": "Handbook",
+    "index": 7,
+    "title": "Enums",
+    "url": "https://www.typescriptlang.org/docs/handbook/enums.html",
+    "char_count": 7506
+  },
+  {
+    "category": "Handbook",
+    "index": 8,
+    "title": "Type Inference",
+    "url": "https://www.typescriptlang.org/docs/handbook/type-inference.html",
+    "char_count": 3417
+  },
+  {
+    "category": "Handbook",
+    "index": 9,
+    "title": "Type Compatibility",
+    "url": "https://www.typescriptlang.org/docs/handbook/type-compatibility.html",
+    "char_count": 8375
+  },
+  {
+    "category": "Handbook",
+    "index": 10,
+    "title": "Advanced Types",
+    "url": "https://www.typescriptlang.org/docs/handbook/advanced-types.html",
+    "char_count": 33898
+  },
+  {
+    "category": "Handbook",
+    "index": 11,
+    "title": "Symbols",
+    "url": "https://www.typescriptlang.org/docs/handbook/symbols.html",
+    "char_count": 2239
+  },
+  {
+    "category": "Handbook",
+    "index": 12,
+    "title": "Iterators and Generators",
+    "url": "https://www.typescriptlang.org/docs/handbook/iterators-and-generators.html",
+    "char_count": 1965
+  },
+  {
+    "category": "Handbook",
+    "index": 13,
+    "title": "Modules",
+    "url": "https://www.typescriptlang.org/docs/handbook/modules.html",
+    "char_count": 19838
+  },
+  {
+    "category": "Handbook",
+    "index": 14,
+    "title": "Namespaces",
+    "url": "https://www.typescriptlang.org/docs/handbook/namespaces.html",
+    "char_count": 7763
+  },
+  {
+    "category": "Handbook",
+    "index": 15,
+    "title": "Namespaces and Modules",
+    "url": "https://www.typescriptlang.org/docs/handbook/namespaces-and-modules.html",
+    "char_count": 4245
+  },
+  {
+    "category": "Handbook",
+    "index": 16,
+    "title": "Module Resolution",
+    "url": "https://www.typescriptlang.org/docs/handbook/module-resolution.html",
+    "char_count": 16965
+  },
+  {
+    "category": "Handbook",
+    "index": 17,
+    "title": "Declaration Merging",
+    "url": "https://www.typescriptlang.org/docs/handbook/declaration-merging.html",
+    "char_count": 8159
+  },
+  {
+    "category": "Handbook",
+    "index": 18,
+    "title": "JSX",
+    "url": "https://www.typescriptlang.org/docs/handbook/jsx.html",
+    "char_count": 12225
+  },
+  {
+    "category": "Handbook",
+    "index": 19,
+    "title": "Decorators",
+    "url": "https://www.typescriptlang.org/docs/handbook/decorators.html",
+    "char_count": 13238
+  },
+  {
+    "category": "Handbook",
+    "index": 20,
+    "title": "Mixins",
+    "url": "https://www.typescriptlang.org/docs/handbook/mixins.html",
+    "char_count": 2957
+  },
+  {
+    "category": "Handbook",
+    "index": 21,
+    "title": "Triple-Slash Directives",
+    "url": "https://www.typescriptlang.org/docs/handbook/triple-slash-directives.html",
+    "char_count": 4826
+  },
+  {
+    "category": "Handbook",
+    "index": 22,
+    "title": "Type Checking JavaScript Files",
+    "url": "https://www.typescriptlang.org/docs/handbook/type-checking-javascript-files.html",
+    "char_count": 16705
+  },
+  {
+    "category": "Handbook",
+    "index": 23,
+    "title": "Utility Types",
+    "url": "https://www.typescriptlang.org/docs/handbook/utility-types.html",
+    "char_count": 4498
+  },
+  {
+    "category": "Declaration Files",
+    "index": 24,
+    "title": "Introduction",
+    "url": "https://www.typescriptlang.org/docs/handbook/declaration-files/introduction.html",
+    "char_count": 1862
+  },
+  {
+    "category": "Declaration Files",
+    "index": 25,
+    "title": "Library Structures",
+    "url": "https://www.typescriptlang.org/docs/handbook/declaration-files/library-structures.html",
+    "char_count": 9625
+  },
+  {
+    "category": "Declaration Files",
+    "index": 26,
+    "title": "By Example",
+    "url": "https://www.typescriptlang.org/docs/handbook/declaration-files/by-example.html",
+    "char_count": 3718
+  },
+  {
+    "category": "Declaration Files",
+    "index": 27,
+    "title": "Do's and Don'ts",
+    "url": "https://www.typescriptlang.org/docs/handbook/declaration-files/do-s-and-don-ts.html",
+    "char_count": 4666
+  },
+  {
+    "category": "Declaration Files",
+    "index": 28,
+    "title": "Deep Dive",
+    "url": "https://www.typescriptlang.org/docs/handbook/declaration-files/deep-dive.html",
+    "char_count": 5403
+  },
+  {
+    "category": "Declaration Files",
+    "index": 29,
+    "title": "Templates",
+    "url": "https://www.typescriptlang.org/docs/handbook/declaration-files/templates.html",
+    "char_count": 123
+  },
+  {
+    "category": "Declaration Files",
+    "index": 30,
+    "title": "Publishing",
+    "url": "https://www.typescriptlang.org/docs/handbook/declaration-files/publishing.html",
+    "char_count": 2960
+  },
+  {
+    "category": "Declaration Files",
+    "index": 31,
+    "title": "Consumption",
+    "url": "https://www.typescriptlang.org/docs/handbook/declaration-files/consumption.html",
+    "char_count": 1233
+  }
+]

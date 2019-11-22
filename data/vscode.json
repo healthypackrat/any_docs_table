@@ -1,0 +1,779 @@
+[
+  {
+    "category": "Setup",
+    "title": "Overview",
+    "url": "https://code.visualstudio.com/docs/setup/setup-overview",
+    "char_count": 3300,
+    "index": 1
+  },
+  {
+    "category": "Setup",
+    "title": "Linux",
+    "url": "https://code.visualstudio.com/docs/setup/linux",
+    "char_count": 10474,
+    "index": 2
+  },
+  {
+    "category": "Setup",
+    "title": "macOS",
+    "url": "https://code.visualstudio.com/docs/setup/mac",
+    "char_count": 2848,
+    "index": 3
+  },
+  {
+    "category": "Setup",
+    "title": "Windows",
+    "url": "https://code.visualstudio.com/docs/setup/windows",
+    "char_count": 3905,
+    "index": 4
+  },
+  {
+    "category": "Setup",
+    "title": "Network",
+    "url": "https://code.visualstudio.com/docs/setup/network",
+    "char_count": 3586,
+    "index": 5
+  },
+  {
+    "category": "Setup",
+    "title": "Additional Components",
+    "url": "https://code.visualstudio.com/docs/setup/additional-components",
+    "char_count": 2215,
+    "index": 6
+  },
+  {
+    "category": "Get Started",
+    "title": "Intro Videos",
+    "url": "https://code.visualstudio.com/docs/getstarted/introvideos",
+    "char_count": 810,
+    "index": 7
+  },
+  {
+    "category": "Get Started",
+    "title": "Tips and Tricks",
+    "url": "https://code.visualstudio.com/docs/getstarted/tips-and-tricks",
+    "char_count": 18231,
+    "index": 8
+  },
+  {
+    "category": "Get Started",
+    "title": "User Interface",
+    "url": "https://code.visualstudio.com/docs/getstarted/userinterface",
+    "char_count": 18097,
+    "index": 9
+  },
+  {
+    "category": "Get Started",
+    "title": "Themes",
+    "url": "https://code.visualstudio.com/docs/getstarted/themes",
+    "char_count": 4690,
+    "index": 10
+  },
+  {
+    "category": "Get Started",
+    "title": "Settings",
+    "url": "https://code.visualstudio.com/docs/getstarted/settings",
+    "char_count": 96529,
+    "index": 11
+  },
+  {
+    "category": "Get Started",
+    "title": "Key Bindings",
+    "url": "https://code.visualstudio.com/docs/getstarted/keybindings",
+    "char_count": 30168,
+    "index": 12
+  },
+  {
+    "category": "Get Started",
+    "title": "Display Language",
+    "url": "https://code.visualstudio.com/docs/getstarted/locales",
+    "char_count": 2842,
+    "index": 13
+  },
+  {
+    "category": "Get Started",
+    "title": "Telemetry",
+    "url": "https://code.visualstudio.com/docs/getstarted/telemetry",
+    "char_count": 7210,
+    "index": 14
+  },
+  {
+    "category": "User Guide",
+    "title": "Basic Editing",
+    "url": "https://code.visualstudio.com/docs/editor/codebasics",
+    "char_count": 15720,
+    "index": 15
+  },
+  {
+    "category": "User Guide",
+    "title": "Extension Marketplace",
+    "url": "https://code.visualstudio.com/docs/editor/extension-gallery",
+    "char_count": 12823,
+    "index": 16
+  },
+  {
+    "category": "User Guide",
+    "title": "IntelliSense",
+    "url": "https://code.visualstudio.com/docs/editor/intellisense",
+    "char_count": 8649,
+    "index": 17
+  },
+  {
+    "category": "User Guide",
+    "title": "Code Navigation",
+    "url": "https://code.visualstudio.com/docs/editor/editingevolved",
+    "char_count": 6603,
+    "index": 18
+  },
+  {
+    "category": "User Guide",
+    "title": "Refactoring",
+    "url": "https://code.visualstudio.com/docs/editor/refactoring",
+    "char_count": 5058,
+    "index": 19
+  },
+  {
+    "category": "User Guide",
+    "title": "Debugging",
+    "url": "https://code.visualstudio.com/docs/editor/debugging",
+    "char_count": 20157,
+    "index": 20
+  },
+  {
+    "category": "User Guide",
+    "title": "Version Control",
+    "url": "https://code.visualstudio.com/docs/editor/versioncontrol",
+    "char_count": 10617,
+    "index": 21
+  },
+  {
+    "category": "User Guide",
+    "title": "Integrated Terminal",
+    "url": "https://code.visualstudio.com/docs/editor/integrated-terminal",
+    "char_count": 16221,
+    "index": 22
+  },
+  {
+    "category": "User Guide",
+    "title": "Multi-root Workspaces",
+    "url": "https://code.visualstudio.com/docs/editor/multi-root-workspaces",
+    "char_count": 11151,
+    "index": 23
+  },
+  {
+    "category": "User Guide",
+    "title": "Tasks",
+    "url": "https://code.visualstudio.com/docs/editor/tasks",
+    "char_count": 32419,
+    "index": 24
+  },
+  {
+    "category": "User Guide",
+    "title": "Snippets",
+    "url": "https://code.visualstudio.com/docs/editor/userdefinedsnippets",
+    "char_count": 10780,
+    "index": 25
+  },
+  {
+    "category": "User Guide",
+    "title": "Emmet",
+    "url": "https://code.visualstudio.com/docs/editor/emmet",
+    "char_count": 12456,
+    "index": 26
+  },
+  {
+    "category": "User Guide",
+    "title": "Command Line",
+    "url": "https://code.visualstudio.com/docs/editor/command-line",
+    "char_count": 6087,
+    "index": 27
+  },
+  {
+    "category": "User Guide",
+    "title": "Accessibility",
+    "url": "https://code.visualstudio.com/docs/editor/accessibility",
+    "char_count": 5635,
+    "index": 28
+  },
+  {
+    "category": "Languages",
+    "title": "Overview",
+    "url": "https://code.visualstudio.com/docs/languages/overview",
+    "char_count": 3920,
+    "index": 29
+  },
+  {
+    "category": "Languages",
+    "title": "JavaScript",
+    "url": "https://code.visualstudio.com/docs/languages/javascript",
+    "char_count": 12595,
+    "index": 30
+  },
+  {
+    "category": "Languages",
+    "title": "JSON",
+    "url": "https://code.visualstudio.com/docs/languages/json",
+    "char_count": 5266,
+    "index": 31
+  },
+  {
+    "category": "Languages",
+    "title": "HTML",
+    "url": "https://code.visualstudio.com/docs/languages/html",
+    "char_count": 5871,
+    "index": 32
+  },
+  {
+    "category": "Languages",
+    "title": "CSS, SCSS and Less",
+    "url": "https://code.visualstudio.com/docs/languages/css",
+    "char_count": 12030,
+    "index": 33
+  },
+  {
+    "category": "Languages",
+    "title": "TypeScript",
+    "url": "https://code.visualstudio.com/docs/languages/typescript",
+    "char_count": 9358,
+    "index": 34
+  },
+  {
+    "category": "Languages",
+    "title": "Markdown",
+    "url": "https://code.visualstudio.com/docs/languages/markdown",
+    "char_count": 10929,
+    "index": 35
+  },
+  {
+    "category": "Languages",
+    "title": "PowerShell",
+    "url": "https://code.visualstudio.com/docs/languages/powershell",
+    "char_count": 7193,
+    "index": 36
+  },
+  {
+    "category": "Languages",
+    "title": "C++",
+    "url": "https://code.visualstudio.com/docs/languages/cpp",
+    "char_count": 2748,
+    "index": 37
+  },
+  {
+    "category": "Languages",
+    "title": "Java",
+    "url": "https://code.visualstudio.com/docs/languages/java",
+    "char_count": 8011,
+    "index": 38
+  },
+  {
+    "category": "Languages",
+    "title": "PHP",
+    "url": "https://code.visualstudio.com/docs/languages/php",
+    "char_count": 2252,
+    "index": 39
+  },
+  {
+    "category": "Languages",
+    "title": "Python",
+    "url": "https://code.visualstudio.com/docs/languages/python",
+    "char_count": 7323,
+    "index": 40
+  },
+  {
+    "category": "Languages",
+    "title": "Go",
+    "url": "https://code.visualstudio.com/docs/languages/go",
+    "char_count": 4281,
+    "index": 41
+  },
+  {
+    "category": "Languages",
+    "title": "T-SQL",
+    "url": "https://code.visualstudio.com/docs/languages/tsql",
+    "char_count": 2394,
+    "index": 42
+  },
+  {
+    "category": "Languages",
+    "title": "C#",
+    "url": "https://code.visualstudio.com/docs/languages/csharp",
+    "char_count": 5201,
+    "index": 43
+  },
+  {
+    "category": "Languages",
+    "title": ".NET Core",
+    "url": "https://code.visualstudio.com/docs/languages/dotnet",
+    "char_count": 1263,
+    "index": 44
+  },
+  {
+    "category": "Node.js / JavaScript",
+    "title": "Working with JavaScript",
+    "url": "https://code.visualstudio.com/docs/nodejs/working-with-javascript",
+    "char_count": 11944,
+    "index": 45
+  },
+  {
+    "category": "Node.js / JavaScript",
+    "title": "Node.js Tutorial",
+    "url": "https://code.visualstudio.com/docs/nodejs/nodejs-tutorial",
+    "char_count": 7868,
+    "index": 46
+  },
+  {
+    "category": "Node.js / JavaScript",
+    "title": "Node.js Debugging",
+    "url": "https://code.visualstudio.com/docs/nodejs/nodejs-debugging",
+    "char_count": 31863,
+    "index": 47
+  },
+  {
+    "category": "Node.js / JavaScript",
+    "title": "Node.js Deployment",
+    "url": "https://code.visualstudio.com/docs/nodejs/nodejs-deployment",
+    "char_count": 1129,
+    "index": 48
+  },
+  {
+    "category": "Node.js / JavaScript",
+    "title": "React Tutorial",
+    "url": "https://code.visualstudio.com/docs/nodejs/reactjs-tutorial",
+    "char_count": 8927,
+    "index": 49
+  },
+  {
+    "category": "Node.js / JavaScript",
+    "title": "Angular Tutorial",
+    "url": "https://code.visualstudio.com/docs/nodejs/angular-tutorial",
+    "char_count": 6422,
+    "index": 50
+  },
+  {
+    "category": "Node.js / JavaScript",
+    "title": "Vue Tutorial",
+    "url": "https://code.visualstudio.com/docs/nodejs/vuejs-tutorial",
+    "char_count": 4596,
+    "index": 51
+  },
+  {
+    "category": "Node.js / JavaScript",
+    "title": "Ember Tutorial",
+    "url": "https://code.visualstudio.com/docs/nodejs/emberjs-tutorial",
+    "char_count": 2840,
+    "index": 52
+  },
+  {
+    "category": "Node.js / JavaScript",
+    "title": "Debugging Recipes",
+    "url": "https://code.visualstudio.com/docs/nodejs/debugging-recipes",
+    "char_count": 1774,
+    "index": 53
+  },
+  {
+    "category": "Node.js / JavaScript",
+    "title": "Extensions",
+    "url": "https://code.visualstudio.com/docs/nodejs/extensions",
+    "char_count": 2455,
+    "index": 54
+  },
+  {
+    "category": "TypeScript",
+    "title": "Tutorial",
+    "url": "https://code.visualstudio.com/docs/typescript/typescript-tutorial",
+    "char_count": 5630,
+    "index": 55
+  },
+  {
+    "category": "TypeScript",
+    "title": "Compiling",
+    "url": "https://code.visualstudio.com/docs/typescript/typescript-compiling",
+    "char_count": 11300,
+    "index": 56
+  },
+  {
+    "category": "TypeScript",
+    "title": "Debugging",
+    "url": "https://code.visualstudio.com/docs/typescript/typescript-debugging",
+    "char_count": 4282,
+    "index": 57
+  },
+  {
+    "category": "Python",
+    "title": "Tutorial",
+    "url": "https://code.visualstudio.com/docs/python/python-tutorial",
+    "char_count": 14274,
+    "index": 58
+  },
+  {
+    "category": "Python",
+    "title": "Editing Code",
+    "url": "https://code.visualstudio.com/docs/python/editing",
+    "char_count": 9199,
+    "index": 59
+  },
+  {
+    "category": "Python",
+    "title": "Linting",
+    "url": "https://code.visualstudio.com/docs/python/linting",
+    "char_count": 12554,
+    "index": 60
+  },
+  {
+    "category": "Python",
+    "title": "Debugging",
+    "url": "https://code.visualstudio.com/docs/python/debugging",
+    "char_count": 20268,
+    "index": 61
+  },
+  {
+    "category": "Python",
+    "title": "Jupyter Notebook Support",
+    "url": "https://code.visualstudio.com/docs/python/jupyter-support",
+    "char_count": 9229,
+    "index": 62
+  },
+  {
+    "category": "Python",
+    "title": "Python Interactive",
+    "url": "https://code.visualstudio.com/docs/python/jupyter-support-py",
+    "char_count": 8238,
+    "index": 63
+  },
+  {
+    "category": "Python",
+    "title": "Environments",
+    "url": "https://code.visualstudio.com/docs/python/environments",
+    "char_count": 16249,
+    "index": 64
+  },
+  {
+    "category": "Python",
+    "title": "Testing",
+    "url": "https://code.visualstudio.com/docs/python/testing",
+    "char_count": 15882,
+    "index": 65
+  },
+  {
+    "category": "Python",
+    "title": "Django Tutorial",
+    "url": "https://code.visualstudio.com/docs/python/tutorial-django",
+    "char_count": 44297,
+    "index": 66
+  },
+  {
+    "category": "Python",
+    "title": "Flask Tutorial",
+    "url": "https://code.visualstudio.com/docs/python/tutorial-flask",
+    "char_count": 29523,
+    "index": 67
+  },
+  {
+    "category": "Python",
+    "title": "Create containers",
+    "url": "https://code.visualstudio.com/docs/python/tutorial-create-containers",
+    "char_count": 14509,
+    "index": 68
+  },
+  {
+    "category": "Python",
+    "title": "Python on Azure",
+    "url": "https://code.visualstudio.com/docs/python/python-on-azure",
+    "char_count": 555,
+    "index": 69
+  },
+  {
+    "category": "Python",
+    "title": "Settings Reference",
+    "url": "https://code.visualstudio.com/docs/python/settings-reference",
+    "char_count": 13612,
+    "index": 70
+  },
+  {
+    "category": "Java",
+    "title": "Java Tutorial",
+    "url": "https://code.visualstudio.com/docs/java/java-tutorial",
+    "char_count": 4704,
+    "index": 71
+  },
+  {
+    "category": "Java",
+    "title": "Editing Code",
+    "url": "https://code.visualstudio.com/docs/java/java-editing",
+    "char_count": 10144,
+    "index": 72
+  },
+  {
+    "category": "Java",
+    "title": "Running and Debugging",
+    "url": "https://code.visualstudio.com/docs/java/java-debugging",
+    "char_count": 12500,
+    "index": 73
+  },
+  {
+    "category": "Java",
+    "title": "Unit Testing",
+    "url": "https://code.visualstudio.com/docs/java/java-testing",
+    "char_count": 2877,
+    "index": 74
+  },
+  {
+    "category": "Java",
+    "title": "Project Management",
+    "url": "https://code.visualstudio.com/docs/java/java-project",
+    "char_count": 4936,
+    "index": 75
+  },
+  {
+    "category": "Java",
+    "title": "Tomcat and Jetty",
+    "url": "https://code.visualstudio.com/docs/java/java-tomcat-jetty",
+    "char_count": 1354,
+    "index": 76
+  },
+  {
+    "category": "Java",
+    "title": "Spring Boot",
+    "url": "https://code.visualstudio.com/docs/java/java-spring-boot",
+    "char_count": 3873,
+    "index": 77
+  },
+  {
+    "category": "Java",
+    "title": "Java Web App",
+    "url": "https://code.visualstudio.com/docs/java/java-webapp",
+    "char_count": 5262,
+    "index": 78
+  },
+  {
+    "category": "Java",
+    "title": "Azure Functions in Java",
+    "url": "https://code.visualstudio.com/docs/java/java-azurefunctions",
+    "char_count": 7123,
+    "index": 79
+  },
+  {
+    "category": "Java",
+    "title": "Extensions",
+    "url": "https://code.visualstudio.com/docs/java/extensions",
+    "char_count": 3027,
+    "index": 80
+  },
+  {
+    "category": "Java",
+    "title": "FAQ",
+    "url": "https://code.visualstudio.com/docs/java/java-faq",
+    "char_count": 3154,
+    "index": 81
+  },
+  {
+    "category": "C++",
+    "title": "Mingw-w64 on Windows",
+    "url": "https://code.visualstudio.com/docs/cpp/config-mingw",
+    "char_count": 11776,
+    "index": 82
+  },
+  {
+    "category": "C++",
+    "title": "GCC on Windows Subsystem for Linux",
+    "url": "https://code.visualstudio.com/docs/cpp/config-wsl",
+    "char_count": 15536,
+    "index": 83
+  },
+  {
+    "category": "C++",
+    "title": "Clang on macOS",
+    "url": "https://code.visualstudio.com/docs/cpp/config-clang-mac",
+    "char_count": 10204,
+    "index": 84
+  },
+  {
+    "category": "C++",
+    "title": "Microsoft C++",
+    "url": "https://code.visualstudio.com/docs/cpp/config-msvc",
+    "char_count": 11182,
+    "index": 85
+  },
+  {
+    "category": "C++",
+    "title": "Debugging",
+    "url": "https://code.visualstudio.com/docs/cpp/cpp-debug",
+    "char_count": 5680,
+    "index": 86
+  },
+  {
+    "category": "C++",
+    "title": "Editing",
+    "url": "https://code.visualstudio.com/docs/cpp/cpp-ide",
+    "char_count": 6105,
+    "index": 87
+  },
+  {
+    "category": "C++",
+    "title": "Settings",
+    "url": "https://code.visualstudio.com/docs/cpp/customize-default-settings-cpp",
+    "char_count": 4419,
+    "index": 88
+  },
+  {
+    "category": "C++",
+    "title": "Enhanced colorization",
+    "url": "https://code.visualstudio.com/docs/cpp/colorization-cpp",
+    "char_count": 2338,
+    "index": 89
+  },
+  {
+    "category": "C++",
+    "title": "c_cpp_properties.json",
+    "url": "https://code.visualstudio.com/docs/cpp/c-cpp-properties-schema-reference",
+    "char_count": 5261,
+    "index": 90
+  },
+  {
+    "category": "C++",
+    "title": "Debug configuration",
+    "url": "https://code.visualstudio.com/docs/cpp/launch-json-reference",
+    "char_count": 8276,
+    "index": 91
+  },
+  {
+    "category": "C++",
+    "title": "Natvis framework",
+    "url": "https://code.visualstudio.com/docs/cpp/natvis",
+    "char_count": 46830,
+    "index": 92
+  },
+  {
+    "category": "C++",
+    "title": "Pipe transport",
+    "url": "https://code.visualstudio.com/docs/cpp/pipe-transport",
+    "char_count": 1614,
+    "index": 93
+  },
+  {
+    "category": "C++",
+    "title": "Logging",
+    "url": "https://code.visualstudio.com/docs/cpp/enable-logging-cpp",
+    "char_count": 1924,
+    "index": 94
+  },
+  {
+    "category": "C++",
+    "title": "FAQ",
+    "url": "https://code.visualstudio.com/docs/cpp/faq-cpp",
+    "char_count": 7805,
+    "index": 95
+  },
+  {
+    "category": "Azure",
+    "title": "Extensions",
+    "url": "https://code.visualstudio.com/docs/azure/extensions",
+    "char_count": 799,
+    "index": 96
+  },
+  {
+    "category": "Azure",
+    "title": "Deployment",
+    "url": "https://code.visualstudio.com/docs/azure/deployment",
+    "char_count": 1129,
+    "index": 97
+  },
+  {
+    "category": "Azure",
+    "title": "Remote Debugging for Node.js",
+    "url": "https://code.visualstudio.com/docs/azure/remote-debugging",
+    "char_count": 1829,
+    "index": 98
+  },
+  {
+    "category": "Azure",
+    "title": "Docker",
+    "url": "https://code.visualstudio.com/docs/azure/docker",
+    "char_count": 6161,
+    "index": 99
+  },
+  {
+    "category": "Azure",
+    "title": "MongoDB",
+    "url": "https://code.visualstudio.com/docs/azure/mongodb",
+    "char_count": 3821,
+    "index": 100
+  },
+  {
+    "category": "Azure",
+    "title": "Kubernetes",
+    "url": "https://code.visualstudio.com/docs/azure/kubernetes",
+    "char_count": 4120,
+    "index": 101
+  },
+  {
+    "category": "Remote",
+    "title": "Overview",
+    "url": "https://code.visualstudio.com/docs/remote/remote-overview",
+    "char_count": 1855,
+    "index": 102
+  },
+  {
+    "category": "Remote",
+    "title": "SSH",
+    "url": "https://code.visualstudio.com/docs/remote/ssh",
+    "char_count": 16138,
+    "index": 103
+  },
+  {
+    "category": "Remote",
+    "title": "Containers",
+    "url": "https://code.visualstudio.com/docs/remote/containers",
+    "char_count": 52172,
+    "index": 104
+  },
+  {
+    "category": "Remote",
+    "title": "Visual Studio Online",
+    "url": "https://code.visualstudio.com/docs/remote/vsonline",
+    "char_count": 3372,
+    "index": 105
+  },
+  {
+    "category": "Remote",
+    "title": "Windows Subsystem for Linux",
+    "url": "https://code.visualstudio.com/docs/remote/wsl",
+    "char_count": 10850,
+    "index": 106
+  },
+  {
+    "category": "Remote",
+    "title": "Tutorials",
+    "url": "https://code.visualstudio.com/docs/remote/remote-tutorials",
+    "char_count": 698,
+    "index": 107
+  },
+  {
+    "category": "Remote",
+    "title": "Tips and Tricks",
+    "url": "https://code.visualstudio.com/docs/remote/troubleshooting",
+    "char_count": 42195,
+    "index": 108
+  },
+  {
+    "category": "Remote",
+    "title": "Advanced Containers",
+    "url": "https://code.visualstudio.com/docs/remote/containers-advanced",
+    "char_count": 31226,
+    "index": 109
+  },
+  {
+    "category": "Remote",
+    "title": "Linux Prerequisites",
+    "url": "https://code.visualstudio.com/docs/remote/linux",
+    "char_count": 10522,
+    "index": 110
+  },
+  {
+    "category": "Remote",
+    "title": "FAQ",
+    "url": "https://code.visualstudio.com/docs/remote/faq",
+    "char_count": 12963,
+    "index": 111
+  }
+]

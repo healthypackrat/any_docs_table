@@ -1,0 +1,987 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>rails_guides_edge</title>
+  </head>
+  <body>
+    <div class="container my-3">
+      <ol class="breadcrumb">
+  <li class="breadcrumb-item"><a href=".">Home</a></li>
+  <li class="breadcrumb-item active">rails_guides_edge</li>
+</ol>
+
+<ul class="nav nav-tabs mb-3" role="tablist">
+    <li class="nav-item">
+      <a class="nav-link active" id="default-tab" data-toggle="tab" href="#default" role="tab">デフォルト</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link " id="sorted-tab" data-toggle="tab" href="#sorted" role="tab">文字数順</a>
+    </li>
+</ul>
+
+<div class="tab-content">
+    <div class="tab-pane fade show active" id="default" role="tabpanel">
+      <table class="table table-hover">
+        <thead>
+          <tr>
+            <th class="index text-right">#</th>
+            <th>タイトル</th>
+            <th class="count text-right">文字数</th>
+          </tr>
+        </thead>
+        <tbody>
+            <tr>
+              <td class="text-right">1</td>
+              <td>
+                  Start Here -
+                <a target="_blank" href="https://edgeguides.rubyonrails.org/getting_started.html">Getting Started with Rails</a>
+              </td>
+              <td class="text-right">55,404</td>
+            </tr>
+            <tr>
+              <td class="text-right">2</td>
+              <td>
+                  Models -
+                <a target="_blank" href="https://edgeguides.rubyonrails.org/active_record_basics.html">Active Record Basics</a>
+              </td>
+              <td class="text-right">10,838</td>
+            </tr>
+            <tr>
+              <td class="text-right">3</td>
+              <td>
+                  Models -
+                <a target="_blank" href="https://edgeguides.rubyonrails.org/active_record_migrations.html">Active Record Migrations</a>
+              </td>
+              <td class="text-right">27,992</td>
+            </tr>
+            <tr>
+              <td class="text-right">4</td>
+              <td>
+                  Models -
+                <a target="_blank" href="https://edgeguides.rubyonrails.org/active_record_validations.html">Active Record Validations</a>
+              </td>
+              <td class="text-right">34,901</td>
+            </tr>
+            <tr>
+              <td class="text-right">5</td>
+              <td>
+                  Models -
+                <a target="_blank" href="https://edgeguides.rubyonrails.org/active_record_callbacks.html">Active Record Callbacks</a>
+              </td>
+              <td class="text-right">12,931</td>
+            </tr>
+            <tr>
+              <td class="text-right">6</td>
+              <td>
+                  Models -
+                <a target="_blank" href="https://edgeguides.rubyonrails.org/association_basics.html">Active Record Associations</a>
+              </td>
+              <td class="text-right">68,251</td>
+            </tr>
+            <tr>
+              <td class="text-right">7</td>
+              <td>
+                  Models -
+                <a target="_blank" href="https://edgeguides.rubyonrails.org/active_record_querying.html">Active Record Query Interface</a>
+              </td>
+              <td class="text-right">49,945</td>
+            </tr>
+            <tr>
+              <td class="text-right">8</td>
+              <td>
+                  Models -
+                <a target="_blank" href="https://edgeguides.rubyonrails.org/active_model_basics.html">Active Model Basics</a>
+              </td>
+              <td class="text-right">10,275</td>
+            </tr>
+            <tr>
+              <td class="text-right">9</td>
+              <td>
+                  Views -
+                <a target="_blank" href="https://edgeguides.rubyonrails.org/action_view_overview.html">Action View Overview</a>
+              </td>
+              <td class="text-right">40,073</td>
+            </tr>
+            <tr>
+              <td class="text-right">10</td>
+              <td>
+                  Views -
+                <a target="_blank" href="https://edgeguides.rubyonrails.org/layouts_and_rendering.html">Layouts and Rendering in Rails</a>
+              </td>
+              <td class="text-right">37,886</td>
+            </tr>
+            <tr>
+              <td class="text-right">11</td>
+              <td>
+                  Views -
+                <a target="_blank" href="https://edgeguides.rubyonrails.org/form_helpers.html">Action View Form Helpers</a>
+              </td>
+              <td class="text-right">37,499</td>
+            </tr>
+            <tr>
+              <td class="text-right">12</td>
+              <td>
+                  Controllers -
+                <a target="_blank" href="https://edgeguides.rubyonrails.org/action_controller_overview.html">Action Controller Overview</a>
+              </td>
+              <td class="text-right">44,640</td>
+            </tr>
+            <tr>
+              <td class="text-right">13</td>
+              <td>
+                  Controllers -
+                <a target="_blank" href="https://edgeguides.rubyonrails.org/routing.html">Rails Routing from the Outside In</a>
+              </td>
+              <td class="text-right">36,965</td>
+            </tr>
+            <tr>
+              <td class="text-right">14</td>
+              <td>
+                  Other Components -
+                <a target="_blank" href="https://edgeguides.rubyonrails.org/active_support_core_extensions.html">Active Support Core Extensions</a>
+              </td>
+              <td class="text-right">87,977</td>
+            </tr>
+            <tr>
+              <td class="text-right">15</td>
+              <td>
+                  Other Components -
+                <a target="_blank" href="https://edgeguides.rubyonrails.org/action_mailer_basics.html">Action Mailer Basics</a>
+              </td>
+              <td class="text-right">24,326</td>
+            </tr>
+            <tr>
+              <td class="text-right">16</td>
+              <td>
+                  Other Components -
+                <a target="_blank" href="https://edgeguides.rubyonrails.org/action_mailbox_basics.html">Action Mailbox Basics</a>
+              </td>
+              <td class="text-right">10,087</td>
+            </tr>
+            <tr>
+              <td class="text-right">17</td>
+              <td>
+                  Other Components -
+                <a target="_blank" href="https://edgeguides.rubyonrails.org/action_text_overview.html">Action Text Overview</a>
+              </td>
+              <td class="text-right">3,029</td>
+            </tr>
+            <tr>
+              <td class="text-right">18</td>
+              <td>
+                  Other Components -
+                <a target="_blank" href="https://edgeguides.rubyonrails.org/active_job_basics.html">Active Job Basics</a>
+              </td>
+              <td class="text-right">10,471</td>
+            </tr>
+            <tr>
+              <td class="text-right">19</td>
+              <td>
+                  Other Components -
+                <a target="_blank" href="https://edgeguides.rubyonrails.org/active_storage_overview.html">Active Storage Overview</a>
+              </td>
+              <td class="text-right">20,906</td>
+            </tr>
+            <tr>
+              <td class="text-right">20</td>
+              <td>
+                  Other Components -
+                <a target="_blank" href="https://edgeguides.rubyonrails.org/action_cable_overview.html">Action Cable Overview</a>
+              </td>
+              <td class="text-right">21,201</td>
+            </tr>
+            <tr>
+              <td class="text-right">21</td>
+              <td>
+                  Digging Deeper -
+                <a target="_blank" href="https://edgeguides.rubyonrails.org/i18n.html">Rails Internationalization (I18n) API</a>
+              </td>
+              <td class="text-right">40,602</td>
+            </tr>
+            <tr>
+              <td class="text-right">22</td>
+              <td>
+                  Digging Deeper -
+                <a target="_blank" href="https://edgeguides.rubyonrails.org/testing.html">Testing Rails Applications</a>
+              </td>
+              <td class="text-right">56,641</td>
+            </tr>
+            <tr>
+              <td class="text-right">23</td>
+              <td>
+                  Digging Deeper -
+                <a target="_blank" href="https://edgeguides.rubyonrails.org/security.html">Securing Rails Applications</a>
+              </td>
+              <td class="text-right">65,177</td>
+            </tr>
+            <tr>
+              <td class="text-right">24</td>
+              <td>
+                  Digging Deeper -
+                <a target="_blank" href="https://edgeguides.rubyonrails.org/debugging_rails_applications.html">Debugging Rails Applications</a>
+              </td>
+              <td class="text-right">27,302</td>
+            </tr>
+            <tr>
+              <td class="text-right">25</td>
+              <td>
+                  Digging Deeper -
+                <a target="_blank" href="https://edgeguides.rubyonrails.org/configuring.html">Configuring Rails Applications</a>
+              </td>
+              <td class="text-right">74,950</td>
+            </tr>
+            <tr>
+              <td class="text-right">26</td>
+              <td>
+                  Digging Deeper -
+                <a target="_blank" href="https://edgeguides.rubyonrails.org/command_line.html">The Rails Command Line</a>
+              </td>
+              <td class="text-right">20,850</td>
+            </tr>
+            <tr>
+              <td class="text-right">27</td>
+              <td>
+                  Digging Deeper -
+                <a target="_blank" href="https://edgeguides.rubyonrails.org/asset_pipeline.html">The Asset Pipeline</a>
+              </td>
+              <td class="text-right">37,525</td>
+            </tr>
+            <tr>
+              <td class="text-right">28</td>
+              <td>
+                  Digging Deeper -
+                <a target="_blank" href="https://edgeguides.rubyonrails.org/working_with_javascript_in_rails.html">Working with JavaScript in Rails</a>
+              </td>
+              <td class="text-right">14,919</td>
+            </tr>
+            <tr>
+              <td class="text-right">29</td>
+              <td>
+                  Digging Deeper -
+                <a target="_blank" href="https://edgeguides.rubyonrails.org/initialization.html">The Rails Initialization Process</a>
+              </td>
+              <td class="text-right">15,584</td>
+            </tr>
+            <tr>
+              <td class="text-right">30</td>
+              <td>
+                  Digging Deeper -
+                <a target="_blank" href="https://edgeguides.rubyonrails.org/autoloading_and_reloading_constants.html">Autoloading and Reloading Constants (Zeitwerk Mode)</a>
+              </td>
+              <td class="text-right">11,382</td>
+            </tr>
+            <tr>
+              <td class="text-right">31</td>
+              <td>
+                  Digging Deeper -
+                <a target="_blank" href="https://edgeguides.rubyonrails.org/autoloading_and_reloading_constants_classic_mode.html">Autoloading and Reloading Constants (Classic Mode)</a>
+              </td>
+              <td class="text-right">32,910</td>
+            </tr>
+            <tr>
+              <td class="text-right">32</td>
+              <td>
+                  Digging Deeper -
+                <a target="_blank" href="https://edgeguides.rubyonrails.org/caching_with_rails.html">Caching with Rails: An Overview</a>
+              </td>
+              <td class="text-right">22,583</td>
+            </tr>
+            <tr>
+              <td class="text-right">33</td>
+              <td>
+                  Digging Deeper -
+                <a target="_blank" href="https://edgeguides.rubyonrails.org/active_support_instrumentation.html">Active Support Instrumentation</a>
+              </td>
+              <td class="text-right">12,752</td>
+            </tr>
+            <tr>
+              <td class="text-right">34</td>
+              <td>
+                  Digging Deeper -
+                <a target="_blank" href="https://edgeguides.rubyonrails.org/api_app.html">Using Rails for API-only Applications</a>
+              </td>
+              <td class="text-right">13,477</td>
+            </tr>
+            <tr>
+              <td class="text-right">35</td>
+              <td>
+                  Digging Deeper -
+                <a target="_blank" href="https://edgeguides.rubyonrails.org/active_record_postgresql.html">Active Record and PostgreSQL</a>
+              </td>
+              <td class="text-right">9,762</td>
+            </tr>
+            <tr>
+              <td class="text-right">36</td>
+              <td>
+                  Digging Deeper -
+                <a target="_blank" href="https://edgeguides.rubyonrails.org/active_record_multiple_databases.html">Multiple Databases with Active Record</a>
+              </td>
+              <td class="text-right">9,905</td>
+            </tr>
+            <tr>
+              <td class="text-right">37</td>
+              <td>
+                  Extending Rails -
+                <a target="_blank" href="https://edgeguides.rubyonrails.org/plugins.html">The Basics of Creating Rails Plugins</a>
+              </td>
+              <td class="text-right">9,907</td>
+            </tr>
+            <tr>
+              <td class="text-right">38</td>
+              <td>
+                  Extending Rails -
+                <a target="_blank" href="https://edgeguides.rubyonrails.org/rails_on_rack.html">Rails on Rack</a>
+              </td>
+              <td class="text-right">8,068</td>
+            </tr>
+            <tr>
+              <td class="text-right">39</td>
+              <td>
+                  Extending Rails -
+                <a target="_blank" href="https://edgeguides.rubyonrails.org/generators.html">Creating and Customizing Rails Generators &amp; Templates</a>
+              </td>
+              <td class="text-right">19,027</td>
+            </tr>
+            <tr>
+              <td class="text-right">40</td>
+              <td>
+                  Extending Rails -
+                <a target="_blank" href="https://edgeguides.rubyonrails.org/engines.html">Getting Started with Engines</a>
+              </td>
+              <td class="text-right">46,113</td>
+            </tr>
+            <tr>
+              <td class="text-right">41</td>
+              <td>
+                  Extending Rails -
+                <a target="_blank" href="https://edgeguides.rubyonrails.org/threading_and_code_execution.html">Threading and Code Execution in Rails</a>
+              </td>
+              <td class="text-right">10,269</td>
+            </tr>
+            <tr>
+              <td class="text-right">42</td>
+              <td>
+                  Contributions -
+                <a target="_blank" href="https://edgeguides.rubyonrails.org/contributing_to_ruby_on_rails.html">Contributing to Ruby on Rails</a>
+              </td>
+              <td class="text-right">23,594</td>
+            </tr>
+            <tr>
+              <td class="text-right">43</td>
+              <td>
+                  Contributions -
+                <a target="_blank" href="https://edgeguides.rubyonrails.org/api_documentation_guidelines.html">API Documentation Guidelines</a>
+              </td>
+              <td class="text-right">10,460</td>
+            </tr>
+            <tr>
+              <td class="text-right">44</td>
+              <td>
+                  Contributions -
+                <a target="_blank" href="https://edgeguides.rubyonrails.org/ruby_on_rails_guides_guidelines.html">Guides Guidelines</a>
+              </td>
+              <td class="text-right">3,882</td>
+            </tr>
+            <tr>
+              <td class="text-right">45</td>
+              <td>
+                  Policies -
+                <a target="_blank" href="https://edgeguides.rubyonrails.org/maintenance_policy.html">Maintenance Policy</a>
+              </td>
+              <td class="text-right">2,450</td>
+            </tr>
+            <tr>
+              <td class="text-right">46</td>
+              <td>
+                  Release Notes -
+                <a target="_blank" href="https://edgeguides.rubyonrails.org/upgrading_ruby_on_rails.html">Upgrading Ruby on Rails</a>
+              </td>
+              <td class="text-right">61,061</td>
+            </tr>
+            <tr>
+              <td class="text-right">47</td>
+              <td>
+                  Release Notes -
+                <a target="_blank" href="https://edgeguides.rubyonrails.org/6_0_release_notes.html">Version 6.0 - August 2019</a>
+              </td>
+              <td class="text-right">23,579</td>
+            </tr>
+            <tr>
+              <td class="text-right">48</td>
+              <td>
+                  Release Notes -
+                <a target="_blank" href="https://edgeguides.rubyonrails.org/5_2_release_notes.html">Version 5.2 - April 2018</a>
+              </td>
+              <td class="text-right">18,852</td>
+            </tr>
+            <tr>
+              <td class="text-right">49</td>
+              <td>
+                  Release Notes -
+                <a target="_blank" href="https://edgeguides.rubyonrails.org/5_1_release_notes.html">Version 5.1 - April 2017</a>
+              </td>
+              <td class="text-right">14,109</td>
+            </tr>
+            <tr>
+              <td class="text-right">50</td>
+              <td>
+                  Release Notes -
+                <a target="_blank" href="https://edgeguides.rubyonrails.org/5_0_release_notes.html">Version 5.0 - June 2016</a>
+              </td>
+              <td class="text-right">26,772</td>
+            </tr>
+            <tr>
+              <td class="text-right">51</td>
+              <td>
+                  Release Notes -
+                <a target="_blank" href="https://edgeguides.rubyonrails.org/4_2_release_notes.html">Version 4.2 - December 2014</a>
+              </td>
+              <td class="text-right">20,982</td>
+            </tr>
+            <tr>
+              <td class="text-right">52</td>
+              <td>
+                  Release Notes -
+                <a target="_blank" href="https://edgeguides.rubyonrails.org/4_1_release_notes.html">Version 4.1 - April 2014</a>
+              </td>
+              <td class="text-right">17,922</td>
+            </tr>
+            <tr>
+              <td class="text-right">53</td>
+              <td>
+                  Release Notes -
+                <a target="_blank" href="https://edgeguides.rubyonrails.org/4_0_release_notes.html">Version 4.0 - June 2013</a>
+              </td>
+              <td class="text-right">10,703</td>
+            </tr>
+            <tr>
+              <td class="text-right">54</td>
+              <td>
+                  Release Notes -
+                <a target="_blank" href="https://edgeguides.rubyonrails.org/3_2_release_notes.html">Version 3.2 - January 2012</a>
+              </td>
+              <td class="text-right">19,538</td>
+            </tr>
+            <tr>
+              <td class="text-right">55</td>
+              <td>
+                  Release Notes -
+                <a target="_blank" href="https://edgeguides.rubyonrails.org/3_1_release_notes.html">Version 3.1 - August 2011</a>
+              </td>
+              <td class="text-right">19,778</td>
+            </tr>
+            <tr>
+              <td class="text-right">56</td>
+              <td>
+                  Release Notes -
+                <a target="_blank" href="https://edgeguides.rubyonrails.org/3_0_release_notes.html">Version 3.0 - August 2010</a>
+              </td>
+              <td class="text-right">25,175</td>
+            </tr>
+            <tr>
+              <td class="text-right">57</td>
+              <td>
+                  Release Notes -
+                <a target="_blank" href="https://edgeguides.rubyonrails.org/2_3_release_notes.html">Version 2.3 - March 2009</a>
+              </td>
+              <td class="text-right">31,534</td>
+            </tr>
+            <tr>
+              <td class="text-right">58</td>
+              <td>
+                  Release Notes -
+                <a target="_blank" href="https://edgeguides.rubyonrails.org/2_2_release_notes.html">Version 2.2 - November 2008</a>
+              </td>
+              <td class="text-right">16,414</td>
+            </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="tab-pane fade " id="sorted" role="tabpanel">
+      <table class="table table-hover">
+        <thead>
+          <tr>
+            <th class="index text-right">#</th>
+            <th>タイトル</th>
+            <th class="count text-right">文字数</th>
+          </tr>
+        </thead>
+        <tbody>
+            <tr>
+              <td class="text-right">14</td>
+              <td>
+                  Other Components -
+                <a target="_blank" href="https://edgeguides.rubyonrails.org/active_support_core_extensions.html">Active Support Core Extensions</a>
+              </td>
+              <td class="text-right">87,977</td>
+            </tr>
+            <tr>
+              <td class="text-right">25</td>
+              <td>
+                  Digging Deeper -
+                <a target="_blank" href="https://edgeguides.rubyonrails.org/configuring.html">Configuring Rails Applications</a>
+              </td>
+              <td class="text-right">74,950</td>
+            </tr>
+            <tr>
+              <td class="text-right">6</td>
+              <td>
+                  Models -
+                <a target="_blank" href="https://edgeguides.rubyonrails.org/association_basics.html">Active Record Associations</a>
+              </td>
+              <td class="text-right">68,251</td>
+            </tr>
+            <tr>
+              <td class="text-right">23</td>
+              <td>
+                  Digging Deeper -
+                <a target="_blank" href="https://edgeguides.rubyonrails.org/security.html">Securing Rails Applications</a>
+              </td>
+              <td class="text-right">65,177</td>
+            </tr>
+            <tr>
+              <td class="text-right">46</td>
+              <td>
+                  Release Notes -
+                <a target="_blank" href="https://edgeguides.rubyonrails.org/upgrading_ruby_on_rails.html">Upgrading Ruby on Rails</a>
+              </td>
+              <td class="text-right">61,061</td>
+            </tr>
+            <tr>
+              <td class="text-right">22</td>
+              <td>
+                  Digging Deeper -
+                <a target="_blank" href="https://edgeguides.rubyonrails.org/testing.html">Testing Rails Applications</a>
+              </td>
+              <td class="text-right">56,641</td>
+            </tr>
+            <tr>
+              <td class="text-right">1</td>
+              <td>
+                  Start Here -
+                <a target="_blank" href="https://edgeguides.rubyonrails.org/getting_started.html">Getting Started with Rails</a>
+              </td>
+              <td class="text-right">55,404</td>
+            </tr>
+            <tr>
+              <td class="text-right">7</td>
+              <td>
+                  Models -
+                <a target="_blank" href="https://edgeguides.rubyonrails.org/active_record_querying.html">Active Record Query Interface</a>
+              </td>
+              <td class="text-right">49,945</td>
+            </tr>
+            <tr>
+              <td class="text-right">40</td>
+              <td>
+                  Extending Rails -
+                <a target="_blank" href="https://edgeguides.rubyonrails.org/engines.html">Getting Started with Engines</a>
+              </td>
+              <td class="text-right">46,113</td>
+            </tr>
+            <tr>
+              <td class="text-right">12</td>
+              <td>
+                  Controllers -
+                <a target="_blank" href="https://edgeguides.rubyonrails.org/action_controller_overview.html">Action Controller Overview</a>
+              </td>
+              <td class="text-right">44,640</td>
+            </tr>
+            <tr>
+              <td class="text-right">21</td>
+              <td>
+                  Digging Deeper -
+                <a target="_blank" href="https://edgeguides.rubyonrails.org/i18n.html">Rails Internationalization (I18n) API</a>
+              </td>
+              <td class="text-right">40,602</td>
+            </tr>
+            <tr>
+              <td class="text-right">9</td>
+              <td>
+                  Views -
+                <a target="_blank" href="https://edgeguides.rubyonrails.org/action_view_overview.html">Action View Overview</a>
+              </td>
+              <td class="text-right">40,073</td>
+            </tr>
+            <tr>
+              <td class="text-right">10</td>
+              <td>
+                  Views -
+                <a target="_blank" href="https://edgeguides.rubyonrails.org/layouts_and_rendering.html">Layouts and Rendering in Rails</a>
+              </td>
+              <td class="text-right">37,886</td>
+            </tr>
+            <tr>
+              <td class="text-right">27</td>
+              <td>
+                  Digging Deeper -
+                <a target="_blank" href="https://edgeguides.rubyonrails.org/asset_pipeline.html">The Asset Pipeline</a>
+              </td>
+              <td class="text-right">37,525</td>
+            </tr>
+            <tr>
+              <td class="text-right">11</td>
+              <td>
+                  Views -
+                <a target="_blank" href="https://edgeguides.rubyonrails.org/form_helpers.html">Action View Form Helpers</a>
+              </td>
+              <td class="text-right">37,499</td>
+            </tr>
+            <tr>
+              <td class="text-right">13</td>
+              <td>
+                  Controllers -
+                <a target="_blank" href="https://edgeguides.rubyonrails.org/routing.html">Rails Routing from the Outside In</a>
+              </td>
+              <td class="text-right">36,965</td>
+            </tr>
+            <tr>
+              <td class="text-right">4</td>
+              <td>
+                  Models -
+                <a target="_blank" href="https://edgeguides.rubyonrails.org/active_record_validations.html">Active Record Validations</a>
+              </td>
+              <td class="text-right">34,901</td>
+            </tr>
+            <tr>
+              <td class="text-right">31</td>
+              <td>
+                  Digging Deeper -
+                <a target="_blank" href="https://edgeguides.rubyonrails.org/autoloading_and_reloading_constants_classic_mode.html">Autoloading and Reloading Constants (Classic Mode)</a>
+              </td>
+              <td class="text-right">32,910</td>
+            </tr>
+            <tr>
+              <td class="text-right">57</td>
+              <td>
+                  Release Notes -
+                <a target="_blank" href="https://edgeguides.rubyonrails.org/2_3_release_notes.html">Version 2.3 - March 2009</a>
+              </td>
+              <td class="text-right">31,534</td>
+            </tr>
+            <tr>
+              <td class="text-right">3</td>
+              <td>
+                  Models -
+                <a target="_blank" href="https://edgeguides.rubyonrails.org/active_record_migrations.html">Active Record Migrations</a>
+              </td>
+              <td class="text-right">27,992</td>
+            </tr>
+            <tr>
+              <td class="text-right">24</td>
+              <td>
+                  Digging Deeper -
+                <a target="_blank" href="https://edgeguides.rubyonrails.org/debugging_rails_applications.html">Debugging Rails Applications</a>
+              </td>
+              <td class="text-right">27,302</td>
+            </tr>
+            <tr>
+              <td class="text-right">50</td>
+              <td>
+                  Release Notes -
+                <a target="_blank" href="https://edgeguides.rubyonrails.org/5_0_release_notes.html">Version 5.0 - June 2016</a>
+              </td>
+              <td class="text-right">26,772</td>
+            </tr>
+            <tr>
+              <td class="text-right">56</td>
+              <td>
+                  Release Notes -
+                <a target="_blank" href="https://edgeguides.rubyonrails.org/3_0_release_notes.html">Version 3.0 - August 2010</a>
+              </td>
+              <td class="text-right">25,175</td>
+            </tr>
+            <tr>
+              <td class="text-right">15</td>
+              <td>
+                  Other Components -
+                <a target="_blank" href="https://edgeguides.rubyonrails.org/action_mailer_basics.html">Action Mailer Basics</a>
+              </td>
+              <td class="text-right">24,326</td>
+            </tr>
+            <tr>
+              <td class="text-right">42</td>
+              <td>
+                  Contributions -
+                <a target="_blank" href="https://edgeguides.rubyonrails.org/contributing_to_ruby_on_rails.html">Contributing to Ruby on Rails</a>
+              </td>
+              <td class="text-right">23,594</td>
+            </tr>
+            <tr>
+              <td class="text-right">47</td>
+              <td>
+                  Release Notes -
+                <a target="_blank" href="https://edgeguides.rubyonrails.org/6_0_release_notes.html">Version 6.0 - August 2019</a>
+              </td>
+              <td class="text-right">23,579</td>
+            </tr>
+            <tr>
+              <td class="text-right">32</td>
+              <td>
+                  Digging Deeper -
+                <a target="_blank" href="https://edgeguides.rubyonrails.org/caching_with_rails.html">Caching with Rails: An Overview</a>
+              </td>
+              <td class="text-right">22,583</td>
+            </tr>
+            <tr>
+              <td class="text-right">20</td>
+              <td>
+                  Other Components -
+                <a target="_blank" href="https://edgeguides.rubyonrails.org/action_cable_overview.html">Action Cable Overview</a>
+              </td>
+              <td class="text-right">21,201</td>
+            </tr>
+            <tr>
+              <td class="text-right">51</td>
+              <td>
+                  Release Notes -
+                <a target="_blank" href="https://edgeguides.rubyonrails.org/4_2_release_notes.html">Version 4.2 - December 2014</a>
+              </td>
+              <td class="text-right">20,982</td>
+            </tr>
+            <tr>
+              <td class="text-right">19</td>
+              <td>
+                  Other Components -
+                <a target="_blank" href="https://edgeguides.rubyonrails.org/active_storage_overview.html">Active Storage Overview</a>
+              </td>
+              <td class="text-right">20,906</td>
+            </tr>
+            <tr>
+              <td class="text-right">26</td>
+              <td>
+                  Digging Deeper -
+                <a target="_blank" href="https://edgeguides.rubyonrails.org/command_line.html">The Rails Command Line</a>
+              </td>
+              <td class="text-right">20,850</td>
+            </tr>
+            <tr>
+              <td class="text-right">55</td>
+              <td>
+                  Release Notes -
+                <a target="_blank" href="https://edgeguides.rubyonrails.org/3_1_release_notes.html">Version 3.1 - August 2011</a>
+              </td>
+              <td class="text-right">19,778</td>
+            </tr>
+            <tr>
+              <td class="text-right">54</td>
+              <td>
+                  Release Notes -
+                <a target="_blank" href="https://edgeguides.rubyonrails.org/3_2_release_notes.html">Version 3.2 - January 2012</a>
+              </td>
+              <td class="text-right">19,538</td>
+            </tr>
+            <tr>
+              <td class="text-right">39</td>
+              <td>
+                  Extending Rails -
+                <a target="_blank" href="https://edgeguides.rubyonrails.org/generators.html">Creating and Customizing Rails Generators &amp; Templates</a>
+              </td>
+              <td class="text-right">19,027</td>
+            </tr>
+            <tr>
+              <td class="text-right">48</td>
+              <td>
+                  Release Notes -
+                <a target="_blank" href="https://edgeguides.rubyonrails.org/5_2_release_notes.html">Version 5.2 - April 2018</a>
+              </td>
+              <td class="text-right">18,852</td>
+            </tr>
+            <tr>
+              <td class="text-right">52</td>
+              <td>
+                  Release Notes -
+                <a target="_blank" href="https://edgeguides.rubyonrails.org/4_1_release_notes.html">Version 4.1 - April 2014</a>
+              </td>
+              <td class="text-right">17,922</td>
+            </tr>
+            <tr>
+              <td class="text-right">58</td>
+              <td>
+                  Release Notes -
+                <a target="_blank" href="https://edgeguides.rubyonrails.org/2_2_release_notes.html">Version 2.2 - November 2008</a>
+              </td>
+              <td class="text-right">16,414</td>
+            </tr>
+            <tr>
+              <td class="text-right">29</td>
+              <td>
+                  Digging Deeper -
+                <a target="_blank" href="https://edgeguides.rubyonrails.org/initialization.html">The Rails Initialization Process</a>
+              </td>
+              <td class="text-right">15,584</td>
+            </tr>
+            <tr>
+              <td class="text-right">28</td>
+              <td>
+                  Digging Deeper -
+                <a target="_blank" href="https://edgeguides.rubyonrails.org/working_with_javascript_in_rails.html">Working with JavaScript in Rails</a>
+              </td>
+              <td class="text-right">14,919</td>
+            </tr>
+            <tr>
+              <td class="text-right">49</td>
+              <td>
+                  Release Notes -
+                <a target="_blank" href="https://edgeguides.rubyonrails.org/5_1_release_notes.html">Version 5.1 - April 2017</a>
+              </td>
+              <td class="text-right">14,109</td>
+            </tr>
+            <tr>
+              <td class="text-right">34</td>
+              <td>
+                  Digging Deeper -
+                <a target="_blank" href="https://edgeguides.rubyonrails.org/api_app.html">Using Rails for API-only Applications</a>
+              </td>
+              <td class="text-right">13,477</td>
+            </tr>
+            <tr>
+              <td class="text-right">5</td>
+              <td>
+                  Models -
+                <a target="_blank" href="https://edgeguides.rubyonrails.org/active_record_callbacks.html">Active Record Callbacks</a>
+              </td>
+              <td class="text-right">12,931</td>
+            </tr>
+            <tr>
+              <td class="text-right">33</td>
+              <td>
+                  Digging Deeper -
+                <a target="_blank" href="https://edgeguides.rubyonrails.org/active_support_instrumentation.html">Active Support Instrumentation</a>
+              </td>
+              <td class="text-right">12,752</td>
+            </tr>
+            <tr>
+              <td class="text-right">30</td>
+              <td>
+                  Digging Deeper -
+                <a target="_blank" href="https://edgeguides.rubyonrails.org/autoloading_and_reloading_constants.html">Autoloading and Reloading Constants (Zeitwerk Mode)</a>
+              </td>
+              <td class="text-right">11,382</td>
+            </tr>
+            <tr>
+              <td class="text-right">2</td>
+              <td>
+                  Models -
+                <a target="_blank" href="https://edgeguides.rubyonrails.org/active_record_basics.html">Active Record Basics</a>
+              </td>
+              <td class="text-right">10,838</td>
+            </tr>
+            <tr>
+              <td class="text-right">53</td>
+              <td>
+                  Release Notes -
+                <a target="_blank" href="https://edgeguides.rubyonrails.org/4_0_release_notes.html">Version 4.0 - June 2013</a>
+              </td>
+              <td class="text-right">10,703</td>
+            </tr>
+            <tr>
+              <td class="text-right">18</td>
+              <td>
+                  Other Components -
+                <a target="_blank" href="https://edgeguides.rubyonrails.org/active_job_basics.html">Active Job Basics</a>
+              </td>
+              <td class="text-right">10,471</td>
+            </tr>
+            <tr>
+              <td class="text-right">43</td>
+              <td>
+                  Contributions -
+                <a target="_blank" href="https://edgeguides.rubyonrails.org/api_documentation_guidelines.html">API Documentation Guidelines</a>
+              </td>
+              <td class="text-right">10,460</td>
+            </tr>
+            <tr>
+              <td class="text-right">8</td>
+              <td>
+                  Models -
+                <a target="_blank" href="https://edgeguides.rubyonrails.org/active_model_basics.html">Active Model Basics</a>
+              </td>
+              <td class="text-right">10,275</td>
+            </tr>
+            <tr>
+              <td class="text-right">41</td>
+              <td>
+                  Extending Rails -
+                <a target="_blank" href="https://edgeguides.rubyonrails.org/threading_and_code_execution.html">Threading and Code Execution in Rails</a>
+              </td>
+              <td class="text-right">10,269</td>
+            </tr>
+            <tr>
+              <td class="text-right">16</td>
+              <td>
+                  Other Components -
+                <a target="_blank" href="https://edgeguides.rubyonrails.org/action_mailbox_basics.html">Action Mailbox Basics</a>
+              </td>
+              <td class="text-right">10,087</td>
+            </tr>
+            <tr>
+              <td class="text-right">37</td>
+              <td>
+                  Extending Rails -
+                <a target="_blank" href="https://edgeguides.rubyonrails.org/plugins.html">The Basics of Creating Rails Plugins</a>
+              </td>
+              <td class="text-right">9,907</td>
+            </tr>
+            <tr>
+              <td class="text-right">36</td>
+              <td>
+                  Digging Deeper -
+                <a target="_blank" href="https://edgeguides.rubyonrails.org/active_record_multiple_databases.html">Multiple Databases with Active Record</a>
+              </td>
+              <td class="text-right">9,905</td>
+            </tr>
+            <tr>
+              <td class="text-right">35</td>
+              <td>
+                  Digging Deeper -
+                <a target="_blank" href="https://edgeguides.rubyonrails.org/active_record_postgresql.html">Active Record and PostgreSQL</a>
+              </td>
+              <td class="text-right">9,762</td>
+            </tr>
+            <tr>
+              <td class="text-right">38</td>
+              <td>
+                  Extending Rails -
+                <a target="_blank" href="https://edgeguides.rubyonrails.org/rails_on_rack.html">Rails on Rack</a>
+              </td>
+              <td class="text-right">8,068</td>
+            </tr>
+            <tr>
+              <td class="text-right">44</td>
+              <td>
+                  Contributions -
+                <a target="_blank" href="https://edgeguides.rubyonrails.org/ruby_on_rails_guides_guidelines.html">Guides Guidelines</a>
+              </td>
+              <td class="text-right">3,882</td>
+            </tr>
+            <tr>
+              <td class="text-right">17</td>
+              <td>
+                  Other Components -
+                <a target="_blank" href="https://edgeguides.rubyonrails.org/action_text_overview.html">Action Text Overview</a>
+              </td>
+              <td class="text-right">3,029</td>
+            </tr>
+            <tr>
+              <td class="text-right">45</td>
+              <td>
+                  Policies -
+                <a target="_blank" href="https://edgeguides.rubyonrails.org/maintenance_policy.html">Maintenance Policy</a>
+              </td>
+              <td class="text-right">2,450</td>
+            </tr>
+        </tbody>
+      </table>
+    </div>
+</div>
+
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>

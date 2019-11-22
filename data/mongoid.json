@@ -1,0 +1,86 @@
+[
+  {
+    "index": 1,
+    "title": "Installation",
+    "url": "https://docs.mongodb.com/mongoid/current/tutorials/mongoid-installation/",
+    "char_count": 2229
+  },
+  {
+    "index": 2,
+    "title": "Configuration",
+    "url": "https://docs.mongodb.com/mongoid/current/tutorials/mongoid-configuration/",
+    "char_count": 8355
+  },
+  {
+    "index": 3,
+    "title": "Documents",
+    "url": "https://docs.mongodb.com/mongoid/current/tutorials/mongoid-documents/",
+    "char_count": 17781
+  },
+  {
+    "index": 4,
+    "title": "Persistence Methods",
+    "url": "https://docs.mongodb.com/mongoid/current/tutorials/mongoid-persistence/",
+    "char_count": 8741
+  },
+  {
+    "index": 5,
+    "title": "Queries",
+    "url": "https://docs.mongodb.com/mongoid/current/tutorials/mongoid-queries/",
+    "char_count": 11318
+  },
+  {
+    "index": 6,
+    "title": "Sessions",
+    "url": "https://docs.mongodb.com/mongoid/current/tutorials/mongoid-sessions/",
+    "char_count": 1570
+  },
+  {
+    "index": 7,
+    "title": "Transactions",
+    "url": "https://docs.mongodb.com/mongoid/current/tutorials/mongoid-transactions/",
+    "char_count": 1974
+  },
+  {
+    "index": 8,
+    "title": "Relations",
+    "url": "https://docs.mongodb.com/mongoid/current/tutorials/mongoid-relations/",
+    "char_count": 18130
+  },
+  {
+    "index": 9,
+    "title": "Nested Attributes",
+    "url": "https://docs.mongodb.com/mongoid/current/tutorials/mongoid-nested-attributes/",
+    "char_count": 1238
+  },
+  {
+    "index": 10,
+    "title": "Callbacks",
+    "url": "https://docs.mongodb.com/mongoid/current/tutorials/mongoid-callbacks/",
+    "char_count": 1924
+  },
+  {
+    "index": 11,
+    "title": "Validation",
+    "url": "https://docs.mongodb.com/mongoid/current/tutorials/mongoid-validation/",
+    "char_count": 401
+  },
+  {
+    "index": 12,
+    "title": "Indexes",
+    "url": "https://docs.mongodb.com/mongoid/current/tutorials/mongoid-indexes/",
+    "char_count": 2140
+  },
+  {
+    "index": 13,
+    "title": "Rails Integration",
+    "url": "https://docs.mongodb.com/mongoid/current/tutorials/mongoid-rails/",
+    "char_count": 2410
+  },
+  {
+    "index": 14,
+    "title": "Upgrade Mongoid",
+    "url": "https://docs.mongodb.com/mongoid/current/tutorials/mongoid-upgrade/",
+    "char_count": 1203
+  }
+]

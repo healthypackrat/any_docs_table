@@ -1,0 +1,146 @@
+[
+  {
+    "index": 1,
+    "title": "What’s New",
+    "url": "https://docs.mongodb.com/ruby-driver/current/whats-new/",
+    "char_count": 114
+  },
+  {
+    "index": 2,
+    "title": "Installation",
+    "url": "https://docs.mongodb.com/ruby-driver/current/installation/",
+    "char_count": 1226
+  },
+  {
+    "index": 3,
+    "title": "Quick Start",
+    "url": "https://docs.mongodb.com/ruby-driver/current/quick-start/",
+    "char_count": 4753
+  },
+  {
+    "index": 4,
+    "title": "Creating a Client",
+    "url": "https://docs.mongodb.com/ruby-driver/current/tutorials/ruby-driver-create-client/",
+    "char_count": 29404
+  },
+  {
+    "index": 5,
+    "title": "Authentication",
+    "url": "https://docs.mongodb.com/ruby-driver/current/tutorials/ruby-driver-authentication/",
+    "char_count": 3675
+  },
+  {
+    "index": 6,
+    "title": "CRUD Operations",
+    "url": "https://docs.mongodb.com/ruby-driver/current/tutorials/ruby-driver-crud-operations/",
+    "char_count": 15534
+  },
+  {
+    "index": 7,
+    "title": "Collections",
+    "url": "https://docs.mongodb.com/ruby-driver/current/tutorials/ruby-driver-collection-tasks/",
+    "char_count": 2971
+  },
+  {
+    "index": 8,
+    "title": "Projections",
+    "url": "https://docs.mongodb.com/ruby-driver/current/tutorials/ruby-driver-projections/",
+    "char_count": 1296
+  },
+  {
+    "index": 9,
+    "title": "Sessions",
+    "url": "https://docs.mongodb.com/ruby-driver/current/tutorials/ruby-driver-sessions/",
+    "char_count": 3754
+  },
+  {
+    "index": 10,
+    "title": "Transactions",
+    "url": "https://docs.mongodb.com/ruby-driver/current/tutorials/ruby-driver-transactions/",
+    "char_count": 4031
+  },
+  {
+    "index": 11,
+    "title": "Change Streams",
+    "url": "https://docs.mongodb.com/ruby-driver/current/tutorials/ruby-driver-change-streams/",
+    "char_count": 4349
+  },
+  {
+    "index": 12,
+    "title": "Databases",
+    "url": "https://docs.mongodb.com/ruby-driver/current/tutorials/ruby-driver-database-tasks/",
+    "char_count": 876
+  },
+  {
+    "index": 13,
+    "title": "Monitoring",
+    "url": "https://docs.mongodb.com/ruby-driver/current/tutorials/ruby-driver-monitoring/",
+    "char_count": 11752
+  },
+  {
+    "index": 14,
+    "title": "Indexing",
+    "url": "https://docs.mongodb.com/ruby-driver/current/tutorials/ruby-driver-indexing/",
+    "char_count": 2183
+  },
+  {
+    "index": 15,
+    "title": "Collations",
+    "url": "https://docs.mongodb.com/ruby-driver/current/tutorials/ruby-driver-collations/",
+    "char_count": 6674
+  },
+  {
+    "index": 16,
+    "title": "Aggregation",
+    "url": "https://docs.mongodb.com/ruby-driver/current/tutorials/ruby-driver-aggregation/",
+    "char_count": 2622
+  },
+  {
+    "index": 17,
+    "title": "Bulk Operations",
+    "url": "https://docs.mongodb.com/ruby-driver/current/tutorials/ruby-driver-bulk-operations/",
+    "char_count": 1258
+  },
+  {
+    "index": 18,
+    "title": "Text Search",
+    "url": "https://docs.mongodb.com/ruby-driver/current/tutorials/ruby-driver-text-search/",
+    "char_count": 809
+  },
+  {
+    "index": 19,
+    "title": "Geospatial Search",
+    "url": "https://docs.mongodb.com/ruby-driver/current/tutorials/ruby-driver-geospatial-search/",
+    "char_count": 1704
+  },
+  {
+    "index": 20,
+    "title": "GridFS",
+    "url": "https://docs.mongodb.com/ruby-driver/current/tutorials/ruby-driver-gridfs/",
+    "char_count": 6027
+  },
+  {
+    "index": 21,
+    "title": "BSON",
+    "url": "https://docs.mongodb.com/ruby-driver/current/bson-tutorials/",
+    "char_count": 234
+  },
+  {
+    "index": 22,
+    "title": "Driver Compatibility",
+    "url": "https://docs.mongodb.com/ruby-driver/current/reference/driver-compatibility/",
+    "char_count": 2246
+  },
+  {
+    "index": 23,
+    "title": "Additional Resources",
+    "url": "https://docs.mongodb.com/ruby-driver/current/reference/additional-resources/",
+    "char_count": 2928
+  },
+  {
+    "index": 24,
+    "title": "Contribute to the Driver",
+    "url": "https://docs.mongodb.com/ruby-driver/current/contribute/",
+    "char_count": 868
+  }
+]

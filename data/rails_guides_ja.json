@@ -1,0 +1,422 @@
+[
+  {
+    "category": "はじめに",
+    "index": 1,
+    "title": "Rails をはじめよう",
+    "url": "https://railsguides.jp/getting_started.html",
+    "char_count": 44581
+  },
+  {
+    "category": "モデル",
+    "index": 2,
+    "title": "Active Record の基礎",
+    "url": "https://railsguides.jp/active_record_basics.html",
+    "char_count": 8224
+  },
+  {
+    "category": "モデル",
+    "index": 3,
+    "title": "Active Record マイグレーション",
+    "url": "https://railsguides.jp/active_record_migrations.html",
+    "char_count": 22160
+  },
+  {
+    "category": "モデル",
+    "index": 4,
+    "title": "Active Record バリデーション",
+    "url": "https://railsguides.jp/active_record_validations.html",
+    "char_count": 26130
+  },
+  {
+    "category": "モデル",
+    "index": 5,
+    "title": "Active Record コールバック",
+    "url": "https://railsguides.jp/active_record_callbacks.html",
+    "char_count": 10711
+  },
+  {
+    "category": "モデル",
+    "index": 6,
+    "title": "Active Record の関連付け",
+    "url": "https://railsguides.jp/association_basics.html",
+    "char_count": 53844
+  },
+  {
+    "category": "モデル",
+    "index": 7,
+    "title": "Active Record クエリインターフェイス",
+    "url": "https://railsguides.jp/active_record_querying.html",
+    "char_count": 39572
+  },
+  {
+    "category": "モデル",
+    "index": 8,
+    "title": "Active Record と PostgreSQL",
+    "url": "https://railsguides.jp/active_record_postgresql.html",
+    "char_count": 9149
+  },
+  {
+    "category": "モデル",
+    "index": 9,
+    "title": "Active Record で複数のデータベース利用",
+    "url": "https://railsguides.jp/active_record_multiple_databases.html",
+    "char_count": 7934
+  },
+  {
+    "category": "モデル",
+    "index": 10,
+    "title": "Active Model の基礎",
+    "url": "https://railsguides.jp/active_model_basics.html",
+    "char_count": 9214
+  },
+  {
+    "category": "ビュー",
+    "index": 11,
+    "title": "Action View の概要",
+    "url": "https://railsguides.jp/action_view_overview.html",
+    "char_count": 31805
+  },
+  {
+    "category": "ビュー",
+    "index": 12,
+    "title": "レイアウトとレンダリング",
+    "url": "https://railsguides.jp/layouts_and_rendering.html",
+    "char_count": 30537
+  },
+  {
+    "category": "ビュー",
+    "index": 13,
+    "title": "Action View フォームヘルパー",
+    "url": "https://railsguides.jp/form_helpers.html",
+    "char_count": 31986
+  },
+  {
+    "category": "コントローラ",
+    "index": 14,
+    "title": "Action Controller の概要",
+    "url": "https://railsguides.jp/action_controller_overview.html",
+    "char_count": 33597
+  },
+  {
+    "category": "コントローラ",
+    "index": 15,
+    "title": "Rails のルーティング",
+    "url": "https://railsguides.jp/routing.html",
+    "char_count": 31031
+  },
+  {
+    "category": "他の構成要素",
+    "index": 16,
+    "title": "Active Support コア拡張機能",
+    "url": "https://railsguides.jp/active_support_core_extensions.html",
+    "char_count": 73067
+  },
+  {
+    "category": "他の構成要素",
+    "index": 17,
+    "title": "Action Mailer の基礎",
+    "url": "https://railsguides.jp/action_mailer_basics.html",
+    "char_count": 19045
+  },
+  {
+    "category": "他の構成要素",
+    "index": 18,
+    "title": "Action Mailbox の基礎",
+    "url": "https://railsguides.jp/action_mailbox_basics.html",
+    "char_count": 8389
+  },
+  {
+    "category": "他の構成要素",
+    "index": 19,
+    "title": "Action Text の概要",
+    "url": "https://railsguides.jp/action_text_overview.html",
+    "char_count": 2647
+  },
+  {
+    "category": "他の構成要素",
+    "index": 20,
+    "title": "Active Job の基礎",
+    "url": "https://railsguides.jp/active_job_basics.html",
+    "char_count": 8420
+  },
+  {
+    "category": "他の構成要素",
+    "index": 21,
+    "title": "Active Storage の概要",
+    "url": "https://railsguides.jp/active_storage_overview.html",
+    "char_count": 14523
+  },
+  {
+    "category": "他の構成要素",
+    "index": 22,
+    "title": "Action Cable の概要",
+    "url": "https://railsguides.jp/action_cable_overview.html",
+    "char_count": 16748
+  },
+  {
+    "category": "他の構成要素",
+    "index": 23,
+    "title": "Action Text の概要",
+    "url": "https://railsguides.jp/action_text_overview.html",
+    "char_count": 2647
+  },
+  {
+    "category": "高度なトピック",
+    "index": 24,
+    "title": "Rails 国際化 (i18n) API",
+    "url": "https://railsguides.jp/i18n.html",
+    "char_count": 31395
+  },
+  {
+    "category": "高度なトピック",
+    "index": 25,
+    "title": "Rails テスティングガイド",
+    "url": "https://railsguides.jp/testing.html",
+    "char_count": 41711
+  },
+  {
+    "category": "高度なトピック",
+    "index": 26,
+    "title": "Rails セキュリティガイド",
+    "url": "https://railsguides.jp/security.html",
+    "char_count": 49727
+  },
+  {
+    "category": "高度なトピック",
+    "index": 27,
+    "title": "Rails アプリケーションのデバッグ",
+    "url": "https://railsguides.jp/debugging_rails_applications.html",
+    "char_count": 20943
+  },
+  {
+    "category": "高度なトピック",
+    "index": 28,
+    "title": "Rails アプリケーションを設定する",
+    "url": "https://railsguides.jp/configuring.html",
+    "char_count": 58610
+  },
+  {
+    "category": "高度なトピック",
+    "index": 29,
+    "title": "コマンドラインツール",
+    "url": "https://railsguides.jp/command_line.html",
+    "char_count": 17373
+  },
+  {
+    "category": "高度なトピック",
+    "index": 30,
+    "title": "アセットパイプライン",
+    "url": "https://railsguides.jp/asset_pipeline.html",
+    "char_count": 32718
+  },
+  {
+    "category": "高度なトピック",
+    "index": 31,
+    "title": "Rails で JavaScript を使用する",
+    "url": "https://railsguides.jp/working_with_javascript_in_rails.html",
+    "char_count": 11894
+  },
+  {
+    "category": "高度なトピック",
+    "index": 32,
+    "title": "Rails の初期化プロセス",
+    "url": "https://railsguides.jp/initialization.html",
+    "char_count": 13709
+  },
+  {
+    "category": "高度なトピック",
+    "index": 33,
+    "title": "定数の自動読み込みと再読み込み",
+    "url": "https://railsguides.jp/autoloading_and_reloading_constants.html",
+    "char_count": 7884
+  },
+  {
+    "category": "高度なトピック",
+    "index": 34,
+    "title": "Rails のキャッシュ機構",
+    "url": "https://railsguides.jp/caching_with_rails.html",
+    "char_count": 16274
+  },
+  {
+    "category": "高度なトピック",
+    "index": 35,
+    "title": "Active Support の Instrumentation 機能",
+    "url": "https://railsguides.jp/active_support_instrumentation.html",
+    "char_count": 8679
+  },
+  {
+    "category": "高度なトピック",
+    "index": 36,
+    "title": "Rails アプリケーションのテンプレート",
+    "url": "https://railsguides.jp/rails_application_templates.html",
+    "char_count": 5046
+  },
+  {
+    "category": "高度なトピック",
+    "index": 37,
+    "title": "Rails による API 専用アプリケーション",
+    "url": "https://railsguides.jp/api_app.html",
+    "char_count": 9718
+  },
+  {
+    "category": "Rails を拡張する",
+    "index": 38,
+    "title": "Rails プラグイン作成入門",
+    "url": "https://railsguides.jp/plugins.html",
+    "char_count": 8924
+  },
+  {
+    "category": "Rails を拡張する",
+    "index": 39,
+    "title": "Rails と Rack",
+    "url": "https://railsguides.jp/rails_on_rack.html",
+    "char_count": 6938
+  },
+  {
+    "category": "Rails を拡張する",
+    "index": 40,
+    "title": "Rails ジェネレータとテンプレート入門",
+    "url": "https://railsguides.jp/generators.html",
+    "char_count": 16072
+  },
+  {
+    "category": "Rails を拡張する",
+    "index": 41,
+    "title": "Rails エンジン入門",
+    "url": "https://railsguides.jp/engines.html",
+    "char_count": 34633
+  },
+  {
+    "category": "Rails を拡張する",
+    "index": 42,
+    "title": "Rails のスレッドとコード実行",
+    "url": "https://railsguides.jp/threading_and_code_execution.html",
+    "char_count": 7713
+  },
+  {
+    "category": "Ruby on Rails に貢献する",
+    "index": 43,
+    "title": "Ruby on Rails に貢献する方法",
+    "url": "https://railsguides.jp/contributing_to_ruby_on_rails.html",
+    "char_count": 17374
+  },
+  {
+    "category": "Ruby on Rails に貢献する",
+    "index": 44,
+    "title": "Rails コア開発環境の構築方法",
+    "url": "https://railsguides.jp/development_dependencies_install.html",
+    "char_count": 7002
+  },
+  {
+    "category": "Ruby on Rails に貢献する",
+    "index": 45,
+    "title": "API ドキュメント作成ガイドライン",
+    "url": "https://railsguides.jp/api_documentation_guidelines.html",
+    "char_count": 8958
+  },
+  {
+    "category": "Ruby on Rails に貢献する",
+    "index": 46,
+    "title": "Rails ガイドのガイドライン",
+    "url": "https://railsguides.jp/ruby_on_rails_guides_guidelines.html",
+    "char_count": 3219
+  },
+  {
+    "category": "メンテナンスポリシー",
+    "index": 47,
+    "title": "メンテナンスポリシー",
+    "url": "https://railsguides.jp/maintenance_policy.html",
+    "char_count": 2120
+  },
+  {
+    "category": "リリースノート",
+    "index": 48,
+    "title": "Rails アップグレードガイド",
+    "url": "https://railsguides.jp/upgrading_ruby_on_rails.html",
+    "char_count": 48377
+  },
+  {
+    "category": "リリースノート",
+    "index": 49,
+    "title": "Rails 6.0 - 2019/08",
+    "url": "https://railsguides.jp/6_0_release_notes.html",
+    "char_count": 18841
+  },
+  {
+    "category": "リリースノート",
+    "index": 50,
+    "title": "Rails 5.2 - 2018/04",
+    "url": "https://railsguides.jp/5_2_release_notes.html",
+    "char_count": 15007
+  },
+  {
+    "category": "リリースノート",
+    "index": 51,
+    "title": "Rails 5.1 - 2017/04",
+    "url": "https://railsguides.jp/5_1_release_notes.html",
+    "char_count": 11516
+  },
+  {
+    "category": "リリースノート",
+    "index": 52,
+    "title": "Rails 5.0 - 2016/06",
+    "url": "https://railsguides.jp/5_0_release_notes.html",
+    "char_count": 20390
+  },
+  {
+    "category": "リリースノート",
+    "index": 53,
+    "title": "Rails 4.2 - 2014/12",
+    "url": "https://railsguides.jp/4_2_release_notes.html",
+    "char_count": 16870
+  },
+  {
+    "category": "リリースノート",
+    "index": 54,
+    "title": "Rails 4.1 - 2014/04",
+    "url": "https://railsguides.jp/4_1_release_notes.html",
+    "char_count": 14984
+  },
+  {
+    "category": "リリースノート",
+    "index": 55,
+    "title": "Rails 4.0 - 2013/06",
+    "url": "https://railsguides.jp/4_0_release_notes.html",
+    "char_count": 9131
+  },
+  {
+    "category": "リリースノート",
+    "index": 56,
+    "title": "Rails 3.2 - 2012/01",
+    "url": "https://railsguides.jp/3_2_release_notes.html",
+    "char_count": 16222
+  },
+  {
+    "category": "リリースノート",
+    "index": 57,
+    "title": "Rails 3.1 - 2011/08",
+    "url": "https://railsguides.jp/3_1_release_notes.html",
+    "char_count": 16046
+  },
+  {
+    "category": "リリースノート",
+    "index": 58,
+    "title": "Rails 3.0 - 2010/08",
+    "url": "https://railsguides.jp/3_0_release_notes.html",
+    "char_count": 19713
+  },
+  {
+    "category": "リリースノート",
+    "index": 59,
+    "title": "Rails 2.3 - 2009/03 [未訳]",
+    "url": "https://railsguides.jp/2_3_release_notes.html",
+    "char_count": 31751
+  },
+  {
+    "category": "リリースノート",
+    "index": 60,
+    "title": "Rails 2.2 - 2008/11 [未訳]",
+    "url": "https://railsguides.jp/2_2_release_notes.html",
+    "char_count": 16710
+  }
+]
