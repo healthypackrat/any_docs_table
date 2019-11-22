@@ -57,7 +57,7 @@ module AnyDocsTable
         output_path.write(html)
       end
 
-      html = erb('layout.erb', title: 'any-docs-table') do
+      html = erb('layout.erb', title: 'any_docs_table') do
         erb('index.erb', links: links)
       end
 
