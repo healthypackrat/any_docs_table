@@ -1,5 +1,7 @@
 require 'uri'
 
+require 'any_docs_table/scrapers/base'
+
 module AnyDocsTable
   module Scrapers
     class VSCode < Base

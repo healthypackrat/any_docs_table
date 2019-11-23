@@ -1,5 +1,7 @@
 require 'nokogiri'
 
+require 'any_docs_table/scrapers/base'
+
 module AnyDocsTable
   module Scrapers
     class MongoBase < Base

@@ -1,3 +1,5 @@
+require 'any_docs_table/scrapers/mongo_base'
+
 module AnyDocsTable
   module Scrapers
     class Mongoid < MongoBase

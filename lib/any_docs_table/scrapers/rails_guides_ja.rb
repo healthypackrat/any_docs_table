@@ -1,5 +1,7 @@
 require 'uri'
 
+require 'any_docs_table/scrapers/rails_guides_base'
+
 module AnyDocsTable
   module Scrapers
     class RailsGuidesJa < RailsGuidesBase
