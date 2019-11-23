@@ -28,7 +28,8 @@
               <td class="text-right"><%=h entry.fetch('index') %></td>
               <td>
                 <%- if entry['category'] -%>
-                  <%=h entry['category'] %> -
+                  <%=h entry['category'] %>:
+                  <span class="d-inline d-sm-none"><br></span>
                 <%- end -%>
                 <a target="_blank" href="<%=h entry.fetch('url') %>"><%=h entry.fetch('title') %></a>
               </td>
