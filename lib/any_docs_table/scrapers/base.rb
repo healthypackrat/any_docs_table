@@ -3,6 +3,8 @@ require 'logger'
 require 'open-uri'
 require 'uri'
 
+require 'nokogiri'
+
 module AnyDocsTable
   module Scrapers
     class Base
