@@ -19,9 +19,10 @@ module AnyDocsTable
 
     def run
       self.class.known_scrapers.each do |key, klass|
+        output_path = @data_dir.join("#{key}.json")
+        next if output_path.exist?
         scraper = klass.new(cache_dir: @cache_dir)
         entries = scraper.run
-        output_path = @data_dir.join("#{key}.json")
         output_path.parent.mkpath
         output_path.write(JSON.pretty_generate(entries))
       end
