@@ -25,9 +25,9 @@ module AnyDocsTable
       end
 
       def get_cached_html(url)
-        url = url.to_s
+        url = URI(url)
 
-        cache_path = @cache_dir.join("#{CGI.escape(url)}.html")
+        cache_path = @cache_dir.join("#{url.host}/#{CGI.escape(url.to_s)}.html")
 
         if @use_cache && cache_path.exist?
           debug "CACHE: #{url}"
@@ -35,7 +35,7 @@ module AnyDocsTable
         else
           wait
           debug "GET: #{url}"
-          html = URI.parse(url).read
+          html = url.read
           cache_path.parent.mkpath
           cache_path.write(html)
           html

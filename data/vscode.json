@@ -17,7 +17,7 @@
     "category": "Setup",
     "title": "macOS",
     "url": "https://code.visualstudio.com/docs/setup/mac",
-    "char_count": 2848,
+    "char_count": 2977,
     "index": 3
   },
   {
@@ -66,14 +66,14 @@
     "category": "Get Started",
     "title": "Themes",
     "url": "https://code.visualstudio.com/docs/getstarted/themes",
-    "char_count": 4690,
+    "char_count": 4688,
     "index": 10
   },
   {
     "category": "Get Started",
     "title": "Settings",
     "url": "https://code.visualstudio.com/docs/getstarted/settings",
-    "char_count": 96529,
+    "char_count": 96324,
     "index": 11
   },
   {
@@ -276,7 +276,7 @@
     "category": "Languages",
     "title": "Python",
     "url": "https://code.visualstudio.com/docs/languages/python",
-    "char_count": 7323,
+    "char_count": 7256,
     "index": 40
   },
   {

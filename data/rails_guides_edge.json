@@ -172,7 +172,7 @@
     "index": 25,
     "title": "Configuring Rails Applications",
     "url": "https://edgeguides.rubyonrails.org/configuring.html",
-    "char_count": 74950
+    "char_count": 74941
   },
   {
     "category": "Digging Deeper",
@@ -221,7 +221,7 @@
     "index": 32,
     "title": "Caching with Rails: An Overview",
     "url": "https://edgeguides.rubyonrails.org/caching_with_rails.html",
-    "char_count": 22583
+    "char_count": 22332
   },
   {
     "category": "Digging Deeper",
@@ -319,7 +319,7 @@
     "index": 46,
     "title": "Upgrading Ruby on Rails",
     "url": "https://edgeguides.rubyonrails.org/upgrading_ruby_on_rails.html",
-    "char_count": 61061
+    "char_count": 61823
   },
   {
     "category": "Release Notes",
