@@ -8,9 +8,10 @@ require 'nokogiri'
 module AnyDocsTable
   module Scrapers
     class Base
-      def initialize(cache_dir:, logger: Logger.new($stderr))
+      def initialize(cache_dir:, use_cache: true, logger: Logger.new($stderr))
         @cache_dir = cache_dir
         @logger = logger
+        @use_cache = use_cache
       end
 
       private
@@ -28,7 +29,7 @@ module AnyDocsTable
 
         cache_path = @cache_dir.join("#{CGI.escape(url)}.html")
 
-        if cache_path.exist?
+        if @use_cache && cache_path.exist?
           debug "CACHE: #{url}"
           cache_path.read
         else
