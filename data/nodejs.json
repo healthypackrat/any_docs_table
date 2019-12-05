@@ -1,0 +1,302 @@
+[
+  {
+    "index": 1,
+    "title": "Assertion Testing",
+    "url": "https://nodejs.org/api/assert.html",
+    "char_count": 27232
+  },
+  {
+    "index": 2,
+    "title": "Async Hooks",
+    "url": "https://nodejs.org/api/async_hooks.html",
+    "char_count": 19437
+  },
+  {
+    "index": 3,
+    "title": "Buffer",
+    "url": "https://nodejs.org/api/buffer.html",
+    "char_count": 64449
+  },
+  {
+    "index": 4,
+    "title": "C++ Addons",
+    "url": "https://nodejs.org/api/addons.html",
+    "char_count": 32249
+  },
+  {
+    "index": 5,
+    "title": "C/C++ Addons with N-API",
+    "url": "https://nodejs.org/api/n-api.html",
+    "char_count": 132252
+  },
+  {
+    "index": 6,
+    "title": "Child Processes",
+    "url": "https://nodejs.org/api/child_process.html",
+    "char_count": 44986
+  },
+  {
+    "index": 7,
+    "title": "Cluster",
+    "url": "https://nodejs.org/api/cluster.html",
+    "char_count": 18477
+  },
+  {
+    "index": 8,
+    "title": "Command Line Options",
+    "url": "https://nodejs.org/api/cli.html",
+    "char_count": 26231
+  },
+  {
+    "index": 9,
+    "title": "Console",
+    "url": "https://nodejs.org/api/console.html",
+    "char_count": 11078
+  },
+  {
+    "index": 10,
+    "title": "Crypto",
+    "url": "https://nodejs.org/api/crypto.html",
+    "char_count": 85128
+  },
+  {
+    "index": 11,
+    "title": "Debugger",
+    "url": "https://nodejs.org/api/debugger.html",
+    "char_count": 4766
+  },
+  {
+    "index": 12,
+    "title": "Deprecated APIs",
+    "url": "https://nodejs.org/api/deprecations.html",
+    "char_count": 37940
+  },
+  {
+    "index": 13,
+    "title": "DNS",
+    "url": "https://nodejs.org/api/dns.html",
+    "char_count": 27304
+  },
+  {
+    "index": 14,
+    "title": "Domain",
+    "url": "https://nodejs.org/api/domain.html",
+    "char_count": 11529
+  },
+  {
+    "index": 15,
+    "title": "ECMAScript Modules",
+    "url": "https://nodejs.org/api/esm.html",
+    "char_count": 37881
+  },
+  {
+    "index": 16,
+    "title": "Errors",
+    "url": "https://nodejs.org/api/errors.html",
+    "char_count": 50421
+  },
+  {
+    "index": 17,
+    "title": "Events",
+    "url": "https://nodejs.org/api/events.html",
+    "char_count": 16698
+  },
+  {
+    "index": 18,
+    "title": "File System",
+    "url": "https://nodejs.org/api/fs.html",
+    "char_count": 120866
+  },
+  {
+    "index": 19,
+    "title": "Globals",
+    "url": "https://nodejs.org/api/globals.html",
+    "char_count": 3044
+  },
+  {
+    "index": 20,
+    "title": "HTTP",
+    "url": "https://nodejs.org/api/http.html",
+    "char_count": 52661
+  },
+  {
+    "index": 21,
+    "title": "HTTP/2",
+    "url": "https://nodejs.org/api/http2.html",
+    "char_count": 86457
+  },
+  {
+    "index": 22,
+    "title": "HTTPS",
+    "url": "https://nodejs.org/api/https.html",
+    "char_count": 9361
+  },
+  {
+    "index": 23,
+    "title": "Inspector",
+    "url": "https://nodejs.org/api/inspector.html",
+    "char_count": 4670
+  },
+  {
+    "index": 24,
+    "title": "Internationalization",
+    "url": "https://nodejs.org/api/intl.html",
+    "char_count": 6110
+  },
+  {
+    "index": 25,
+    "title": "Modules",
+    "url": "https://nodejs.org/api/modules.html",
+    "char_count": 23113
+  },
+  {
+    "index": 26,
+    "title": "Net",
+    "url": "https://nodejs.org/api/net.html",
+    "char_count": 27896
+  },
+  {
+    "index": 27,
+    "title": "OS",
+    "url": "https://nodejs.org/api/os.html",
+    "char_count": 18194
+  },
+  {
+    "index": 28,
+    "title": "Path",
+    "url": "https://nodejs.org/api/path.html",
+    "char_count": 10265
+  },
+  {
+    "index": 29,
+    "title": "Performance Hooks",
+    "url": "https://nodejs.org/api/perf_hooks.html",
+    "char_count": 11565
+  },
+  {
+    "index": 30,
+    "title": "Policies",
+    "url": "https://nodejs.org/api/policy.html",
+    "char_count": 4930
+  },
+  {
+    "index": 31,
+    "title": "Process",
+    "url": "https://nodejs.org/api/process.html",
+    "char_count": 57425
+  },
+  {
+    "index": 32,
+    "title": "Punycode",
+    "url": "https://nodejs.org/api/punycode.html",
+    "char_count": 3134
+  },
+  {
+    "index": 33,
+    "title": "Query Strings",
+    "url": "https://nodejs.org/api/querystring.html",
+    "char_count": 4037
+  },
+  {
+    "index": 34,
+    "title": "Readline",
+    "url": "https://nodejs.org/api/readline.html",
+    "char_count": 14482
+  },
+  {
+    "index": 35,
+    "title": "REPL",
+    "url": "https://nodejs.org/api/repl.html",
+    "char_count": 16270
+  },
+  {
+    "index": 36,
+    "title": "Report",
+    "url": "https://nodejs.org/api/report.html",
+    "char_count": 13569
+  },
+  {
+    "index": 37,
+    "title": "Stream",
+    "url": "https://nodejs.org/api/stream.html",
+    "char_count": 69733
+  },
+  {
+    "index": 38,
+    "title": "String Decoder",
+    "url": "https://nodejs.org/api/string_decoder.html",
+    "char_count": 2212
+  },
+  {
+    "index": 39,
+    "title": "Timers",
+    "url": "https://nodejs.org/api/timers.html",
+    "char_count": 6647
+  },
+  {
+    "index": 40,
+    "title": "TLS/SSL",
+    "url": "https://nodejs.org/api/tls.html",
+    "char_count": 53906
+  },
+  {
+    "index": 41,
+    "title": "Trace Events",
+    "url": "https://nodejs.org/api/tracing.html",
+    "char_count": 5250
+  },
+  {
+    "index": 42,
+    "title": "TTY",
+    "url": "https://nodejs.org/api/tty.html",
+    "char_count": 6579
+  },
+  {
+    "index": 43,
+    "title": "UDP/Datagram",
+    "url": "https://nodejs.org/api/dgram.html",
+    "char_count": 19172
+  },
+  {
+    "index": 44,
+    "title": "URL",
+    "url": "https://nodejs.org/api/url.html",
+    "char_count": 30919
+  },
+  {
+    "index": 45,
+    "title": "Utilities",
+    "url": "https://nodejs.org/api/util.html",
+    "char_count": 45025
+  },
+  {
+    "index": 46,
+    "title": "V8",
+    "url": "https://nodejs.org/api/v8.html",
+    "char_count": 11111
+  },
+  {
+    "index": 47,
+    "title": "VM",
+    "url": "https://nodejs.org/api/vm.html",
+    "char_count": 35205
+  },
+  {
+    "index": 48,
+    "title": "WASI",
+    "url": "https://nodejs.org/api/wasi.html",
+    "char_count": 2244
+  },
+  {
+    "index": 49,
+    "title": "Worker Threads",
+    "url": "https://nodejs.org/api/worker_threads.html",
+    "char_count": 18083
+  },
+  {
+    "index": 50,
+    "title": "Zlib",
+    "url": "https://nodejs.org/api/zlib.html",
+    "char_count": 21189
+  }
+]
