@@ -33,7 +33,7 @@
                 <%- end -%>
                 <a target="_blank" href="<%=h entry.fetch('url') %>"><%=h entry.fetch('title') %></a>
               </td>
-              <td class="text-right"><%=h format_number(entry.fetch('char_count')) %></td>
+              <td class="text-right"><code class="text-dark"><%=h format_number(entry.fetch('char_count')) %></code></td>
             </tr>
           <%- end -%>
         </tbody>
