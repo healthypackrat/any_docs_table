@@ -1,0 +1,660 @@
+[
+  {
+    "category": "Introduction",
+    "index": 1,
+    "title": "Getting Started",
+    "url": "https://guides.hanamirb.org/introduction/getting-started/",
+    "char_count": 26520
+  },
+  {
+    "category": "Architecture",
+    "index": 2,
+    "title": "Overview",
+    "url": "https://guides.hanamirb.org/architecture/overview/",
+    "char_count": 4025
+  },
+  {
+    "category": "Architecture",
+    "index": 3,
+    "title": "Interactors",
+    "url": "https://guides.hanamirb.org/architecture/interactors/",
+    "char_count": 14778
+  },
+  {
+    "category": "Projects",
+    "index": 4,
+    "title": "Code Reloading",
+    "url": "https://guides.hanamirb.org/projects/code-reloading/",
+    "char_count": 1193
+  },
+  {
+    "category": "Projects",
+    "index": 5,
+    "title": "Rake Tasks",
+    "url": "https://guides.hanamirb.org/projects/rake/",
+    "char_count": 1601
+  },
+  {
+    "category": "Projects",
+    "index": 6,
+    "title": "Logging",
+    "url": "https://guides.hanamirb.org/projects/logging/",
+    "char_count": 4420
+  },
+  {
+    "category": "Projects",
+    "index": 7,
+    "title": "Initializers",
+    "url": "https://guides.hanamirb.org/projects/initializers/",
+    "char_count": 609
+  },
+  {
+    "category": "Projects",
+    "index": 8,
+    "title": "Rack Middleware",
+    "url": "https://guides.hanamirb.org/projects/rack-middleware/",
+    "char_count": 373
+  },
+  {
+    "category": "Projects",
+    "index": 9,
+    "title": "Project Security",
+    "url": "https://guides.hanamirb.org/projects/security/",
+    "char_count": 2383
+  },
+  {
+    "category": "Projects",
+    "index": 10,
+    "title": "HTTP/2 Early Hints",
+    "url": "https://guides.hanamirb.org/projects/http2-early-hints/",
+    "char_count": 2955
+  },
+  {
+    "category": "Projects",
+    "index": 11,
+    "title": "Selectively boot apps",
+    "url": "https://guides.hanamirb.org/projects/selectively-boot-apps/",
+    "char_count": 1276
+  },
+  {
+    "category": "Routing",
+    "index": 12,
+    "title": "Overview",
+    "url": "https://guides.hanamirb.org/routing/overview/",
+    "char_count": 2764
+  },
+  {
+    "category": "Routing",
+    "index": 13,
+    "title": "Basic Usage",
+    "url": "https://guides.hanamirb.org/routing/basic-usage/",
+    "char_count": 2839
+  },
+  {
+    "category": "Routing",
+    "index": 14,
+    "title": "RESTful Resource(s)",
+    "url": "https://guides.hanamirb.org/routing/restful-resources/",
+    "char_count": 4640
+  },
+  {
+    "category": "Routing",
+    "index": 15,
+    "title": "Testing",
+    "url": "https://guides.hanamirb.org/routing/testing/",
+    "char_count": 1522
+  },
+  {
+    "category": "Actions",
+    "index": 16,
+    "title": "Overview",
+    "url": "https://guides.hanamirb.org/actions/overview/",
+    "char_count": 3139
+  },
+  {
+    "category": "Actions",
+    "index": 17,
+    "title": "Basic Usage",
+    "url": "https://guides.hanamirb.org/actions/basic-usage/",
+    "char_count": 2576
+  },
+  {
+    "category": "Actions",
+    "index": 18,
+    "title": "Parameters",
+    "url": "https://guides.hanamirb.org/actions/parameters/",
+    "char_count": 6427
+  },
+  {
+    "category": "Actions",
+    "index": 19,
+    "title": "Request & Response",
+    "url": "https://guides.hanamirb.org/actions/request-and-response/",
+    "char_count": 1748
+  },
+  {
+    "category": "Actions",
+    "index": 20,
+    "title": "Exposures",
+    "url": "https://guides.hanamirb.org/actions/exposures/",
+    "char_count": 936
+  },
+  {
+    "category": "Actions",
+    "index": 21,
+    "title": "Rack Integration",
+    "url": "https://guides.hanamirb.org/actions/rack-integration/",
+    "char_count": 1635
+  },
+  {
+    "category": "Actions",
+    "index": 22,
+    "title": "MIME Types",
+    "url": "https://guides.hanamirb.org/actions/mime-types/",
+    "char_count": 2862
+  },
+  {
+    "category": "Actions",
+    "index": 23,
+    "title": "Cookies",
+    "url": "https://guides.hanamirb.org/actions/cookies/",
+    "char_count": 1752
+  },
+  {
+    "category": "Actions",
+    "index": 24,
+    "title": "Sessions",
+    "url": "https://guides.hanamirb.org/actions/sessions/",
+    "char_count": 1292
+  },
+  {
+    "category": "Actions",
+    "index": 25,
+    "title": "Exception Handling",
+    "url": "https://guides.hanamirb.org/actions/exception-handling/",
+    "char_count": 2110
+  },
+  {
+    "category": "Actions",
+    "index": 26,
+    "title": "Control Flow",
+    "url": "https://guides.hanamirb.org/actions/control-flow/",
+    "char_count": 4529
+  },
+  {
+    "category": "Actions",
+    "index": 27,
+    "title": "HTTP Caching",
+    "url": "https://guides.hanamirb.org/actions/http-caching/",
+    "char_count": 3046
+  },
+  {
+    "category": "Actions",
+    "index": 28,
+    "title": "Share Code",
+    "url": "https://guides.hanamirb.org/actions/share-code/",
+    "char_count": 2810
+  },
+  {
+    "category": "Actions",
+    "index": 29,
+    "title": "Testing",
+    "url": "https://guides.hanamirb.org/actions/testing/",
+    "char_count": 8206
+  },
+  {
+    "category": "Views",
+    "index": 30,
+    "title": "Overview",
+    "url": "https://guides.hanamirb.org/views/overview/",
+    "char_count": 1902
+  },
+  {
+    "category": "Views",
+    "index": 31,
+    "title": "Basic Usage",
+    "url": "https://guides.hanamirb.org/views/basic-usage/",
+    "char_count": 2486
+  },
+  {
+    "category": "Views",
+    "index": 32,
+    "title": "Templates",
+    "url": "https://guides.hanamirb.org/views/templates/",
+    "char_count": 2548
+  },
+  {
+    "category": "Views",
+    "index": 33,
+    "title": "MIME Types",
+    "url": "https://guides.hanamirb.org/views/mime-types/",
+    "char_count": 1829
+  },
+  {
+    "category": "Views",
+    "index": 34,
+    "title": "Layouts",
+    "url": "https://guides.hanamirb.org/views/layouts/",
+    "char_count": 2971
+  },
+  {
+    "category": "Views",
+    "index": 35,
+    "title": "Custom Error Pages",
+    "url": "https://guides.hanamirb.org/views/custom-error-pages/",
+    "char_count": 707
+  },
+  {
+    "category": "Views",
+    "index": 36,
+    "title": "Share Code",
+    "url": "https://guides.hanamirb.org/views/share-code/",
+    "char_count": 950
+  },
+  {
+    "category": "Views",
+    "index": 37,
+    "title": "Testing",
+    "url": "https://guides.hanamirb.org/views/testing/",
+    "char_count": 1898
+  },
+  {
+    "category": "Models",
+    "index": 38,
+    "title": "Overview",
+    "url": "https://guides.hanamirb.org/models/overview/",
+    "char_count": 1447
+  },
+  {
+    "category": "Models",
+    "index": 39,
+    "title": "Database Configuration",
+    "url": "https://guides.hanamirb.org/models/database-configuration/",
+    "char_count": 1303
+  },
+  {
+    "category": "Models",
+    "index": 40,
+    "title": "Use Your Own ORM",
+    "url": "https://guides.hanamirb.org/models/use-your-own-orm/",
+    "char_count": 1133
+  },
+  {
+    "category": "Repositories",
+    "index": 41,
+    "title": "Overview",
+    "url": "https://guides.hanamirb.org/repositories/overview/",
+    "char_count": 5623
+  },
+  {
+    "category": "Repositories",
+    "index": 42,
+    "title": "SQL Queries",
+    "url": "https://guides.hanamirb.org/repositories/sql-queries/",
+    "char_count": 2193
+  },
+  {
+    "category": "Repositories",
+    "index": 43,
+    "title": "PostgreSQL",
+    "url": "https://guides.hanamirb.org/repositories/postgresql/",
+    "char_count": 1684
+  },
+  {
+    "category": "Entities",
+    "index": 44,
+    "title": "Overview",
+    "url": "https://guides.hanamirb.org/entities/overview/",
+    "char_count": 1957
+  },
+  {
+    "category": "Entities",
+    "index": 45,
+    "title": "Custom Schema",
+    "url": "https://guides.hanamirb.org/entities/custom-schema/",
+    "char_count": 2887
+  },
+  {
+    "category": "Entities",
+    "index": 46,
+    "title": "Data Types",
+    "url": "https://guides.hanamirb.org/entities/data-types/",
+    "char_count": 1494
+  },
+  {
+    "category": "Associations",
+    "index": 47,
+    "title": "Overview",
+    "url": "https://guides.hanamirb.org/associations/overview/",
+    "char_count": 1372
+  },
+  {
+    "category": "Associations",
+    "index": 48,
+    "title": "Has Many",
+    "url": "https://guides.hanamirb.org/associations/has-many/",
+    "char_count": 4484
+  },
+  {
+    "category": "Associations",
+    "index": 49,
+    "title": "Belongs To",
+    "url": "https://guides.hanamirb.org/associations/belongs-to/",
+    "char_count": 3152
+  },
+  {
+    "category": "Associations",
+    "index": 50,
+    "title": "Has One",
+    "url": "https://guides.hanamirb.org/associations/has-one/",
+    "char_count": 3787
+  },
+  {
+    "category": "Associations",
+    "index": 51,
+    "title": "Has Many Through",
+    "url": "https://guides.hanamirb.org/associations/has-many-through/",
+    "char_count": 7563
+  },
+  {
+    "category": "Migrations",
+    "index": 52,
+    "title": "Migrations",
+    "url": "https://guides.hanamirb.org/migrations/overview/",
+    "char_count": 2325
+  },
+  {
+    "category": "Migrations",
+    "index": 53,
+    "title": "Create Table",
+    "url": "https://guides.hanamirb.org/migrations/create-table/",
+    "char_count": 3460
+  },
+  {
+    "category": "Migrations",
+    "index": 54,
+    "title": "Alter Table",
+    "url": "https://guides.hanamirb.org/migrations/alter-table/",
+    "char_count": 1562
+  },
+  {
+    "category": "Validations",
+    "index": 55,
+    "title": "Overview",
+    "url": "https://guides.hanamirb.org/validations/overview/",
+    "char_count": 976
+  },
+  {
+    "category": "Validations",
+    "index": 56,
+    "title": "Boolean Logic",
+    "url": "https://guides.hanamirb.org/validations/boolean-logic/",
+    "char_count": 4343
+  },
+  {
+    "category": "Validations",
+    "index": 57,
+    "title": "Custom Predicates",
+    "url": "https://guides.hanamirb.org/validations/custom-predicates/",
+    "char_count": 1660
+  },
+  {
+    "category": "Validations",
+    "index": 58,
+    "title": "Advanced Usage",
+    "url": "https://guides.hanamirb.org/validations/advanced-usage/",
+    "char_count": 9255
+  },
+  {
+    "category": "Helpers",
+    "index": 59,
+    "title": "Overview",
+    "url": "https://guides.hanamirb.org/helpers/overview/",
+    "char_count": 2798
+  },
+  {
+    "category": "Helpers",
+    "index": 60,
+    "title": "HTML5",
+    "url": "https://guides.hanamirb.org/helpers/html5/",
+    "char_count": 3438
+  },
+  {
+    "category": "Helpers",
+    "index": 61,
+    "title": "Forms",
+    "url": "https://guides.hanamirb.org/helpers/forms/",
+    "char_count": 7611
+  },
+  {
+    "category": "Helpers",
+    "index": 62,
+    "title": "Routing",
+    "url": "https://guides.hanamirb.org/helpers/routing/",
+    "char_count": 1024
+  },
+  {
+    "category": "Helpers",
+    "index": 63,
+    "title": "Assets",
+    "url": "https://guides.hanamirb.org/helpers/assets/",
+    "char_count": 7065
+  },
+  {
+    "category": "Helpers",
+    "index": 64,
+    "title": "Links",
+    "url": "https://guides.hanamirb.org/helpers/links/",
+    "char_count": 1235
+  },
+  {
+    "category": "Helpers",
+    "index": 65,
+    "title": "Markup Escape",
+    "url": "https://guides.hanamirb.org/helpers/escape/",
+    "char_count": 2422
+  },
+  {
+    "category": "Helpers",
+    "index": 66,
+    "title": "Numbers",
+    "url": "https://guides.hanamirb.org/helpers/numbers/",
+    "char_count": 797
+  },
+  {
+    "category": "Helpers",
+    "index": 67,
+    "title": "Custom Helpers",
+    "url": "https://guides.hanamirb.org/helpers/custom-helpers/",
+    "char_count": 1255
+  },
+  {
+    "category": "Mailers",
+    "index": 68,
+    "title": "Overview",
+    "url": "https://guides.hanamirb.org/mailers/overview/",
+    "char_count": 877
+  },
+  {
+    "category": "Mailers",
+    "index": 69,
+    "title": "Basic Usage",
+    "url": "https://guides.hanamirb.org/mailers/basic-usage/",
+    "char_count": 1919
+  },
+  {
+    "category": "Mailers",
+    "index": 70,
+    "title": "Templates",
+    "url": "https://guides.hanamirb.org/mailers/templates/",
+    "char_count": 2378
+  },
+  {
+    "category": "Mailers",
+    "index": 71,
+    "title": "Delivery",
+    "url": "https://guides.hanamirb.org/mailers/delivery/",
+    "char_count": 3043
+  },
+  {
+    "category": "Mailers",
+    "index": 72,
+    "title": "Share Code",
+    "url": "https://guides.hanamirb.org/mailers/share-code/",
+    "char_count": 876
+  },
+  {
+    "category": "Mailers",
+    "index": 73,
+    "title": "Testing",
+    "url": "https://guides.hanamirb.org/mailers/testing/",
+    "char_count": 665
+  },
+  {
+    "category": "Assets",
+    "index": 74,
+    "title": "Overview",
+    "url": "https://guides.hanamirb.org/assets/overview/",
+    "char_count": 5088
+  },
+  {
+    "category": "Assets",
+    "index": 75,
+    "title": "Preprocessors",
+    "url": "https://guides.hanamirb.org/assets/preprocessors/",
+    "char_count": 1924
+  },
+  {
+    "category": "Assets",
+    "index": 76,
+    "title": "Compressors",
+    "url": "https://guides.hanamirb.org/assets/compressors/",
+    "char_count": 1914
+  },
+  {
+    "category": "Assets",
+    "index": 77,
+    "title": "Content Delivery Network (CDN)",
+    "url": "https://guides.hanamirb.org/assets/content-delivery-network/",
+    "char_count": 3647
+  },
+  {
+    "category": "Assets",
+    "index": 78,
+    "title": "Use Your Own Assets Management",
+    "url": "https://guides.hanamirb.org/assets/use-your-own-assets-management-tool/",
+    "char_count": 769
+  },
+  {
+    "category": "Command Line",
+    "index": 79,
+    "title": "Project",
+    "url": "https://guides.hanamirb.org/command-line/project/",
+    "char_count": 635
+  },
+  {
+    "category": "Command Line",
+    "index": 80,
+    "title": "Generators",
+    "url": "https://guides.hanamirb.org/command-line/generators/",
+    "char_count": 3265
+  },
+  {
+    "category": "Command Line",
+    "index": 81,
+    "title": "Destroy",
+    "url": "https://guides.hanamirb.org/command-line/destroy/",
+    "char_count": 1266
+  },
+  {
+    "category": "Command Line",
+    "index": 82,
+    "title": "Database",
+    "url": "https://guides.hanamirb.org/command-line/database/",
+    "char_count": 3302
+  },
+  {
+    "category": "Command Line",
+    "index": 83,
+    "title": "Assets",
+    "url": "https://guides.hanamirb.org/command-line/assets/",
+    "char_count": 2913
+  },
+  {
+    "category": "Command Line",
+    "index": 84,
+    "title": "Routes",
+    "url": "https://guides.hanamirb.org/command-line/routes/",
+    "char_count": 884
+  },
+  {
+    "category": "Command Line",
+    "index": 85,
+    "title": "Version",
+    "url": "https://guides.hanamirb.org/command-line/version/",
+    "char_count": 260
+  },
+  {
+    "category": "Command Line",
+    "index": 86,
+    "title": "Plugins",
+    "url": "https://guides.hanamirb.org/command-line/plugins/",
+    "char_count": 1336
+  },
+  {
+    "category": "Upgrade Notes",
+    "index": 87,
+    "title": "v0.6.0",
+    "url": "https://guides.hanamirb.org/upgrade-notes/v060/",
+    "char_count": 1121
+  },
+  {
+    "category": "Upgrade Notes",
+    "index": 88,
+    "title": "v0.7.0",
+    "url": "https://guides.hanamirb.org/upgrade-notes/v070/",
+    "char_count": 359
+  },
+  {
+    "category": "Upgrade Notes",
+    "index": 89,
+    "title": "v0.8.0",
+    "url": "https://guides.hanamirb.org/upgrade-notes/v080/",
+    "char_count": 1473
+  },
+  {
+    "category": "Upgrade Notes",
+    "index": 90,
+    "title": "v0.9.0",
+    "url": "https://guides.hanamirb.org/upgrade-notes/v090/",
+    "char_count": 2078
+  },
+  {
+    "category": "Upgrade Notes",
+    "index": 91,
+    "title": "v1.0.0",
+    "url": "https://guides.hanamirb.org/upgrade-notes/v100/",
+    "char_count": 1481
+  },
+  {
+    "category": "Upgrade Notes",
+    "index": 92,
+    "title": "v1.1.0",
+    "url": "https://guides.hanamirb.org/upgrade-notes/v110/",
+    "char_count": 264
+  },
+  {
+    "category": "Upgrade Notes",
+    "index": 93,
+    "title": "v1.2.0",
+    "url": "https://guides.hanamirb.org/upgrade-notes/v120/",
+    "char_count": 264
+  },
+  {
+    "category": "Upgrade Notes",
+    "index": 94,
+    "title": "v1.3.0",
+    "url": "https://guides.hanamirb.org/upgrade-notes/v130/",
+    "char_count": 1096
+  }
+]
