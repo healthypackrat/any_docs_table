@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>sequel</title>
+  </head>
+  <body>
+    <div class="container my-3">
+      <ol class="breadcrumb">
+  <li class="breadcrumb-item"><a href=".">Home</a></li>
+  <li class="breadcrumb-item active">sequel</li>
+</ol>
+
+<ul class="nav nav-tabs mb-3" role="tablist">
+    <li class="nav-item">
+      <a class="nav-link active" id="default-tab" data-toggle="tab" href="#default" role="tab">デフォルト</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link " id="sorted-tab" data-toggle="tab" href="#sorted" role="tab">文字数順</a>
+    </li>
+</ul>
+
+<div class="tab-content">
+    <div class="tab-pane fade show active" id="default" role="tabpanel">
+      <table class="table table-hover">
+        <thead>
+          <tr>
+            <th class="index text-right">#</th>
+            <th>タイトル</th>
+            <th class="count text-right">文字数</th>
+          </tr>
+        </thead>
+        <tbody>
+            <tr>
+              <td class="text-right">1</td>
+              <td>
+                  General Overviews:
+                  <span class="d-inline d-sm-none"><br></span>
+                <a target="_blank" href="http://sequel.jeremyevans.net/rdoc/files/README_rdoc.html">README</a>
+              </td>
+              <td class="text-right"><code class="text-dark">26,565</code></td>
+            </tr>
+            <tr>
+              <td class="text-right">2</td>
+              <td>
+                  General Overviews:
+                  <span class="d-inline d-sm-none"><br></span>
+                <a target="_blank" href="http://sequel.jeremyevans.net/rdoc/files/doc/security_rdoc.html">Security</a>
+              </td>
+              <td class="text-right"><code class="text-dark">13,353</code></td>
+            </tr>
+            <tr>
+              <td class="text-right">3</td>
+              <td>
+                  General Overviews:
+                  <span class="d-inline d-sm-none"><br></span>
+                <a target="_blank" href="http://sequel.jeremyevans.net/rdoc/files/doc/cheat_sheet_rdoc.html">Cheat Sheet</a>
+              </td>
+              <td class="text-right"><code class="text-dark">5,325</code></td>
+            </tr>
+            <tr>
+              <td class="text-right">4</td>
+              <td>
+                  General Overviews:
+                  <span class="d-inline d-sm-none"><br></span>
+                <a target="_blank" href="http://sequel.jeremyevans.net/rdoc/files/doc/sql_rdoc.html">Sequel for SQL Users</a>
+              </td>
+              <td class="text-right"><code class="text-dark">21,760</code></td>
+            </tr>
+            <tr>
+              <td class="text-right">5</td>
+              <td>
+                  General Overviews:
+                  <span class="d-inline d-sm-none"><br></span>
+                <a target="_blank" href="http://sequel.jeremyevans.net/rdoc/files/doc/object_model_rdoc.html">Sequel Object Model</a>
+              </td>
+              <td class="text-right"><code class="text-dark">15,821</code></td>
+            </tr>
+            <tr>
+              <td class="text-right">6</td>
+              <td>
+                  Databases:
+                  <span class="d-inline d-sm-none"><br></span>
+                <a target="_blank" href="http://sequel.jeremyevans.net/rdoc/files/doc/opening_databases_rdoc.html">Connecting to a Database</a>
+              </td>
+              <td class="text-right"><code class="text-dark">17,335</code></td>
+            </tr>
+            <tr>
+              <td class="text-right">7</td>
+              <td>
+                  Databases:
+                  <span class="d-inline d-sm-none"><br></span>
+                <a target="_blank" href="http://sequel.jeremyevans.net/rdoc/files/doc/transactions_rdoc.html">Database Transactions</a>
+              </td>
+              <td class="text-right"><code class="text-dark">8,210</code></td>
+            </tr>
+            <tr>
+              <td class="text-right">8</td>
+              <td>
+                  Databases:
+                  <span class="d-inline d-sm-none"><br></span>
+                <a target="_blank" href="http://sequel.jeremyevans.net/rdoc/files/doc/schema_modification_rdoc.html">Schema Modification</a>
+              </td>
+              <td class="text-right"><code class="text-dark">17,477</code></td>
+            </tr>
+            <tr>
+              <td class="text-right">9</td>
+              <td>
+                  Databases:
+                  <span class="d-inline d-sm-none"><br></span>
+                <a target="_blank" href="http://sequel.jeremyevans.net/rdoc/files/doc/migration_rdoc.html">Migrations</a>
+              </td>
+              <td class="text-right"><code class="text-dark">19,990</code></td>
+            </tr>
+            <tr>
+              <td class="text-right">10</td>
+              <td>
+                  Databases:
+                  <span class="d-inline d-sm-none"><br></span>
+                <a target="_blank" href="http://sequel.jeremyevans.net/rdoc/files/doc/sharding_rdoc.html">Primary/Replica Database Configurations and Sharding</a>
+              </td>
+              <td class="text-right"><code class="text-dark">9,716</code></td>
+            </tr>
+            <tr>
+              <td class="text-right">11</td>
+              <td>
+                  Databases:
+                  <span class="d-inline d-sm-none"><br></span>
+                <a target="_blank" href="http://sequel.jeremyevans.net/rdoc/files/doc/postgresql_rdoc.html">PostgreSQL Specific Support</a>
+              </td>
+              <td class="text-right"><code class="text-dark">18,885</code></td>
+            </tr>
+            <tr>
+              <td class="text-right">12</td>
+              <td>
+                  Databases:
+                  <span class="d-inline d-sm-none"><br></span>
+                <a target="_blank" href="http://sequel.jeremyevans.net/rdoc/files/doc/mssql_stored_procedures_rdoc.html">Microsoft SQL Server Stored Procedure Support</a>
+              </td>
+              <td class="text-right"><code class="text-dark">993</code></td>
+            </tr>
+            <tr>
+              <td class="text-right">13</td>
+              <td>
+                  Datasets:
+                  <span class="d-inline d-sm-none"><br></span>
+                <a target="_blank" href="http://sequel.jeremyevans.net/rdoc/files/doc/dataset_basics_rdoc.html">Dataset Basics</a>
+              </td>
+              <td class="text-right"><code class="text-dark">3,505</code></td>
+            </tr>
+            <tr>
+              <td class="text-right">14</td>
+              <td>
+                  Datasets:
+                  <span class="d-inline d-sm-none"><br></span>
+                <a target="_blank" href="http://sequel.jeremyevans.net/rdoc/files/doc/dataset_filtering_rdoc.html">Dataset Filtering</a>
+              </td>
+              <td class="text-right"><code class="text-dark">6,818</code></td>
+            </tr>
+            <tr>
+              <td class="text-right">15</td>
+              <td>
+                  Datasets:
+                  <span class="d-inline d-sm-none"><br></span>
+                <a target="_blank" href="http://sequel.jeremyevans.net/rdoc/files/doc/querying_rdoc.html">Querying in Sequel</a>
+              </td>
+              <td class="text-right"><code class="text-dark">28,837</code></td>
+            </tr>
+            <tr>
+              <td class="text-right">16</td>
+              <td>
+                  Datasets:
+                  <span class="d-inline d-sm-none"><br></span>
+                <a target="_blank" href="http://sequel.jeremyevans.net/rdoc/files/doc/prepared_statements_rdoc.html">Prepared Statements/Bound Variables</a>
+              </td>
+              <td class="text-right"><code class="text-dark">4,287</code></td>
+            </tr>
+            <tr>
+              <td class="text-right">17</td>
+              <td>
+                  Datasets:
+                  <span class="d-inline d-sm-none"><br></span>
+                <a target="_blank" href="http://sequel.jeremyevans.net/rdoc/files/doc/virtual_rows_rdoc.html">Virtual Row Blocks</a>
+              </td>
+              <td class="text-right"><code class="text-dark">7,053</code></td>
+            </tr>
+            <tr>
+              <td class="text-right">18</td>
+              <td>
+                  Models:
+                  <span class="d-inline d-sm-none"><br></span>
+                <a target="_blank" href="http://sequel.jeremyevans.net/rdoc/files/doc/mass_assignment_rdoc.html">Model Mass Assignment</a>
+              </td>
+              <td class="text-right"><code class="text-dark">3,556</code></td>
+            </tr>
+            <tr>
+              <td class="text-right">19</td>
+              <td>
+                  Models:
+                  <span class="d-inline d-sm-none"><br></span>
+                <a target="_blank" href="http://sequel.jeremyevans.net/rdoc/files/doc/validations_rdoc.html">Model Validations</a>
+              </td>
+              <td class="text-right"><code class="text-dark">21,621</code></td>
+            </tr>
+            <tr>
+              <td class="text-right">20</td>
+              <td>
+                  Models:
+                  <span class="d-inline d-sm-none"><br></span>
+                <a target="_blank" href="http://sequel.jeremyevans.net/rdoc/files/doc/model_hooks_rdoc.html">Model Hooks</a>
+              </td>
+              <td class="text-right"><code class="text-dark">8,890</code></td>
+            </tr>
+            <tr>
+              <td class="text-right">21</td>
+              <td>
+                  Models:
+                  <span class="d-inline d-sm-none"><br></span>
+                <a target="_blank" href="http://sequel.jeremyevans.net/rdoc/files/doc/model_dataset_method_design_rdoc.html">Model Dataset Method Design</a>
+              </td>
+              <td class="text-right"><code class="text-dark">6,167</code></td>
+            </tr>
+            <tr>
+              <td class="text-right">22</td>
+              <td>
+                  Models:
+                  <span class="d-inline d-sm-none"><br></span>
+                <a target="_blank" href="http://sequel.jeremyevans.net/rdoc/files/doc/association_basics_rdoc.html">Model Associations Basics and Options</a>
+              </td>
+              <td class="text-right"><code class="text-dark">52,170</code></td>
+            </tr>
+            <tr>
+              <td class="text-right">23</td>
+              <td>
+                  Models:
+                  <span class="d-inline d-sm-none"><br></span>
+                <a target="_blank" href="http://sequel.jeremyevans.net/rdoc/files/doc/advanced_associations_rdoc.html">Advanced Model Associations</a>
+              </td>
+              <td class="text-right"><code class="text-dark">29,294</code></td>
+            </tr>
+            <tr>
+              <td class="text-right">24</td>
+              <td>
+                  Models:
+                  <span class="d-inline d-sm-none"><br></span>
+                <a target="_blank" href="http://sequel.jeremyevans.net/rdoc/files/doc/model_plugins_rdoc.html">Model Plugins</a>
+              </td>
+              <td class="text-right"><code class="text-dark">8,089</code></td>
+            </tr>
+            <tr>
+              <td class="text-right">25</td>
+              <td>
+                  Misc.:
+                  <span class="d-inline d-sm-none"><br></span>
+                <a target="_blank" href="http://sequel.jeremyevans.net/rdoc/files/doc/code_order_rdoc.html">Code Order</a>
+              </td>
+              <td class="text-right"><code class="text-dark">3,351</code></td>
+            </tr>
+            <tr>
+              <td class="text-right">26</td>
+              <td>
+                  Misc.:
+                  <span class="d-inline d-sm-none"><br></span>
+                <a target="_blank" href="http://sequel.jeremyevans.net/rdoc/files/doc/reflection_rdoc.html">Reflection</a>
+              </td>
+              <td class="text-right"><code class="text-dark">4,951</code></td>
+            </tr>
+            <tr>
+              <td class="text-right">27</td>
+              <td>
+                  Misc.:
+                  <span class="d-inline d-sm-none"><br></span>
+                <a target="_blank" href="http://sequel.jeremyevans.net/rdoc/files/doc/thread_safety_rdoc.html">Thread Safety</a>
+              </td>
+              <td class="text-right"><code class="text-dark">1,419</code></td>
+            </tr>
+            <tr>
+              <td class="text-right">28</td>
+              <td>
+                  Misc.:
+                  <span class="d-inline d-sm-none"><br></span>
+                <a target="_blank" href="http://sequel.jeremyevans.net/rdoc/files/doc/testing_rdoc.html">Testing With Sequel</a>
+              </td>
+              <td class="text-right"><code class="text-dark">7,626</code></td>
+            </tr>
+            <tr>
+              <td class="text-right">29</td>
+              <td>
+                  Misc.:
+                  <span class="d-inline d-sm-none"><br></span>
+                <a target="_blank" href="http://sequel.jeremyevans.net/rdoc/files/doc/extensions_rdoc.html">Sequel Extensions</a>
+              </td>
+              <td class="text-right"><code class="text-dark">4,432</code></td>
+            </tr>
+            <tr>
+              <td class="text-right">30</td>
+              <td>
+                  Misc.:
+                  <span class="d-inline d-sm-none"><br></span>
+                <a target="_blank" href="http://sequel.jeremyevans.net/rdoc/files/doc/core_extensions_rdoc.html">Core Extensions</a>
+              </td>
+              <td class="text-right"><code class="text-dark">9,188</code></td>
+            </tr>
+            <tr>
+              <td class="text-right">31</td>
+              <td>
+                  Misc.:
+                  <span class="d-inline d-sm-none"><br></span>
+                <a target="_blank" href="http://sequel.jeremyevans.net/rdoc/files/doc/bin_sequel_rdoc.html">bin/sequel</a>
+              </td>
+              <td class="text-right"><code class="text-dark">5,336</code></td>
+            </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="tab-pane fade " id="sorted" role="tabpanel">
+      <table class="table table-hover">
+        <thead>
+          <tr>
+            <th class="index text-right">#</th>
+            <th>タイトル</th>
+            <th class="count text-right">文字数</th>
+          </tr>
+        </thead>
+        <tbody>
+            <tr>
+              <td class="text-right">22</td>
+              <td>
+                  Models:
+                  <span class="d-inline d-sm-none"><br></span>
+                <a target="_blank" href="http://sequel.jeremyevans.net/rdoc/files/doc/association_basics_rdoc.html">Model Associations Basics and Options</a>
+              </td>
+              <td class="text-right"><code class="text-dark">52,170</code></td>
+            </tr>
+            <tr>
+              <td class="text-right">23</td>
+              <td>
+                  Models:
+                  <span class="d-inline d-sm-none"><br></span>
+                <a target="_blank" href="http://sequel.jeremyevans.net/rdoc/files/doc/advanced_associations_rdoc.html">Advanced Model Associations</a>
+              </td>
+              <td class="text-right"><code class="text-dark">29,294</code></td>
+            </tr>
+            <tr>
+              <td class="text-right">15</td>
+              <td>
+                  Datasets:
+                  <span class="d-inline d-sm-none"><br></span>
+                <a target="_blank" href="http://sequel.jeremyevans.net/rdoc/files/doc/querying_rdoc.html">Querying in Sequel</a>
+              </td>
+              <td class="text-right"><code class="text-dark">28,837</code></td>
+            </tr>
+            <tr>
+              <td class="text-right">1</td>
+              <td>
+                  General Overviews:
+                  <span class="d-inline d-sm-none"><br></span>
+                <a target="_blank" href="http://sequel.jeremyevans.net/rdoc/files/README_rdoc.html">README</a>
+              </td>
+              <td class="text-right"><code class="text-dark">26,565</code></td>
+            </tr>
+            <tr>
+              <td class="text-right">4</td>
+              <td>
+                  General Overviews:
+                  <span class="d-inline d-sm-none"><br></span>
+                <a target="_blank" href="http://sequel.jeremyevans.net/rdoc/files/doc/sql_rdoc.html">Sequel for SQL Users</a>
+              </td>
+              <td class="text-right"><code class="text-dark">21,760</code></td>
+            </tr>
+            <tr>
+              <td class="text-right">19</td>
+              <td>
+                  Models:
+                  <span class="d-inline d-sm-none"><br></span>
+                <a target="_blank" href="http://sequel.jeremyevans.net/rdoc/files/doc/validations_rdoc.html">Model Validations</a>
+              </td>
+              <td class="text-right"><code class="text-dark">21,621</code></td>
+            </tr>
+            <tr>
+              <td class="text-right">9</td>
+              <td>
+                  Databases:
+                  <span class="d-inline d-sm-none"><br></span>
+                <a target="_blank" href="http://sequel.jeremyevans.net/rdoc/files/doc/migration_rdoc.html">Migrations</a>
+              </td>
+              <td class="text-right"><code class="text-dark">19,990</code></td>
+            </tr>
+            <tr>
+              <td class="text-right">11</td>
+              <td>
+                  Databases:
+                  <span class="d-inline d-sm-none"><br></span>
+                <a target="_blank" href="http://sequel.jeremyevans.net/rdoc/files/doc/postgresql_rdoc.html">PostgreSQL Specific Support</a>
+              </td>
+              <td class="text-right"><code class="text-dark">18,885</code></td>
+            </tr>
+            <tr>
+              <td class="text-right">8</td>
+              <td>
+                  Databases:
+                  <span class="d-inline d-sm-none"><br></span>
+                <a target="_blank" href="http://sequel.jeremyevans.net/rdoc/files/doc/schema_modification_rdoc.html">Schema Modification</a>
+              </td>
+              <td class="text-right"><code class="text-dark">17,477</code></td>
+            </tr>
+            <tr>
+              <td class="text-right">6</td>
+              <td>
+                  Databases:
+                  <span class="d-inline d-sm-none"><br></span>
+                <a target="_blank" href="http://sequel.jeremyevans.net/rdoc/files/doc/opening_databases_rdoc.html">Connecting to a Database</a>
+              </td>
+              <td class="text-right"><code class="text-dark">17,335</code></td>
+            </tr>
+            <tr>
+              <td class="text-right">5</td>
+              <td>
+                  General Overviews:
+                  <span class="d-inline d-sm-none"><br></span>
+                <a target="_blank" href="http://sequel.jeremyevans.net/rdoc/files/doc/object_model_rdoc.html">Sequel Object Model</a>
+              </td>
+              <td class="text-right"><code class="text-dark">15,821</code></td>
+            </tr>
+            <tr>
+              <td class="text-right">2</td>
+              <td>
+                  General Overviews:
+                  <span class="d-inline d-sm-none"><br></span>
+                <a target="_blank" href="http://sequel.jeremyevans.net/rdoc/files/doc/security_rdoc.html">Security</a>
+              </td>
+              <td class="text-right"><code class="text-dark">13,353</code></td>
+            </tr>
+            <tr>
+              <td class="text-right">10</td>
+              <td>
+                  Databases:
+                  <span class="d-inline d-sm-none"><br></span>
+                <a target="_blank" href="http://sequel.jeremyevans.net/rdoc/files/doc/sharding_rdoc.html">Primary/Replica Database Configurations and Sharding</a>
+              </td>
+              <td class="text-right"><code class="text-dark">9,716</code></td>
+            </tr>
+            <tr>
+              <td class="text-right">30</td>
+              <td>
+                  Misc.:
+                  <span class="d-inline d-sm-none"><br></span>
+                <a target="_blank" href="http://sequel.jeremyevans.net/rdoc/files/doc/core_extensions_rdoc.html">Core Extensions</a>
+              </td>
+              <td class="text-right"><code class="text-dark">9,188</code></td>
+            </tr>
+            <tr>
+              <td class="text-right">20</td>
+              <td>
+                  Models:
+                  <span class="d-inline d-sm-none"><br></span>
+                <a target="_blank" href="http://sequel.jeremyevans.net/rdoc/files/doc/model_hooks_rdoc.html">Model Hooks</a>
+              </td>
+              <td class="text-right"><code class="text-dark">8,890</code></td>
+            </tr>
+            <tr>
+              <td class="text-right">7</td>
+              <td>
+                  Databases:
+                  <span class="d-inline d-sm-none"><br></span>
+                <a target="_blank" href="http://sequel.jeremyevans.net/rdoc/files/doc/transactions_rdoc.html">Database Transactions</a>
+              </td>
+              <td class="text-right"><code class="text-dark">8,210</code></td>
+            </tr>
+            <tr>
+              <td class="text-right">24</td>
+              <td>
+                  Models:
+                  <span class="d-inline d-sm-none"><br></span>
+                <a target="_blank" href="http://sequel.jeremyevans.net/rdoc/files/doc/model_plugins_rdoc.html">Model Plugins</a>
+              </td>
+              <td class="text-right"><code class="text-dark">8,089</code></td>
+            </tr>
+            <tr>
+              <td class="text-right">28</td>
+              <td>
+                  Misc.:
+                  <span class="d-inline d-sm-none"><br></span>
+                <a target="_blank" href="http://sequel.jeremyevans.net/rdoc/files/doc/testing_rdoc.html">Testing With Sequel</a>
+              </td>
+              <td class="text-right"><code class="text-dark">7,626</code></td>
+            </tr>
+            <tr>
+              <td class="text-right">17</td>
+              <td>
+                  Datasets:
+                  <span class="d-inline d-sm-none"><br></span>
+                <a target="_blank" href="http://sequel.jeremyevans.net/rdoc/files/doc/virtual_rows_rdoc.html">Virtual Row Blocks</a>
+              </td>
+              <td class="text-right"><code class="text-dark">7,053</code></td>
+            </tr>
+            <tr>
+              <td class="text-right">14</td>
+              <td>
+                  Datasets:
+                  <span class="d-inline d-sm-none"><br></span>
+                <a target="_blank" href="http://sequel.jeremyevans.net/rdoc/files/doc/dataset_filtering_rdoc.html">Dataset Filtering</a>
+              </td>
+              <td class="text-right"><code class="text-dark">6,818</code></td>
+            </tr>
+            <tr>
+              <td class="text-right">21</td>
+              <td>
+                  Models:
+                  <span class="d-inline d-sm-none"><br></span>
+                <a target="_blank" href="http://sequel.jeremyevans.net/rdoc/files/doc/model_dataset_method_design_rdoc.html">Model Dataset Method Design</a>
+              </td>
+              <td class="text-right"><code class="text-dark">6,167</code></td>
+            </tr>
+            <tr>
+              <td class="text-right">31</td>
+              <td>
+                  Misc.:
+                  <span class="d-inline d-sm-none"><br></span>
+                <a target="_blank" href="http://sequel.jeremyevans.net/rdoc/files/doc/bin_sequel_rdoc.html">bin/sequel</a>
+              </td>
+              <td class="text-right"><code class="text-dark">5,336</code></td>
+            </tr>
+            <tr>
+              <td class="text-right">3</td>
+              <td>
+                  General Overviews:
+                  <span class="d-inline d-sm-none"><br></span>
+                <a target="_blank" href="http://sequel.jeremyevans.net/rdoc/files/doc/cheat_sheet_rdoc.html">Cheat Sheet</a>
+              </td>
+              <td class="text-right"><code class="text-dark">5,325</code></td>
+            </tr>
+            <tr>
+              <td class="text-right">26</td>
+              <td>
+                  Misc.:
+                  <span class="d-inline d-sm-none"><br></span>
+                <a target="_blank" href="http://sequel.jeremyevans.net/rdoc/files/doc/reflection_rdoc.html">Reflection</a>
+              </td>
+              <td class="text-right"><code class="text-dark">4,951</code></td>
+            </tr>
+            <tr>
+              <td class="text-right">29</td>
+              <td>
+                  Misc.:
+                  <span class="d-inline d-sm-none"><br></span>
+                <a target="_blank" href="http://sequel.jeremyevans.net/rdoc/files/doc/extensions_rdoc.html">Sequel Extensions</a>
+              </td>
+              <td class="text-right"><code class="text-dark">4,432</code></td>
+            </tr>
+            <tr>
+              <td class="text-right">16</td>
+              <td>
+                  Datasets:
+                  <span class="d-inline d-sm-none"><br></span>
+                <a target="_blank" href="http://sequel.jeremyevans.net/rdoc/files/doc/prepared_statements_rdoc.html">Prepared Statements/Bound Variables</a>
+              </td>
+              <td class="text-right"><code class="text-dark">4,287</code></td>
+            </tr>
+            <tr>
+              <td class="text-right">18</td>
+              <td>
+                  Models:
+                  <span class="d-inline d-sm-none"><br></span>
+                <a target="_blank" href="http://sequel.jeremyevans.net/rdoc/files/doc/mass_assignment_rdoc.html">Model Mass Assignment</a>
+              </td>
+              <td class="text-right"><code class="text-dark">3,556</code></td>
+            </tr>
+            <tr>
+              <td class="text-right">13</td>
+              <td>
+                  Datasets:
+                  <span class="d-inline d-sm-none"><br></span>
+                <a target="_blank" href="http://sequel.jeremyevans.net/rdoc/files/doc/dataset_basics_rdoc.html">Dataset Basics</a>
+              </td>
+              <td class="text-right"><code class="text-dark">3,505</code></td>
+            </tr>
+            <tr>
+              <td class="text-right">25</td>
+              <td>
+                  Misc.:
+                  <span class="d-inline d-sm-none"><br></span>
+                <a target="_blank" href="http://sequel.jeremyevans.net/rdoc/files/doc/code_order_rdoc.html">Code Order</a>
+              </td>
+              <td class="text-right"><code class="text-dark">3,351</code></td>
+            </tr>
+            <tr>
+              <td class="text-right">27</td>
+              <td>
+                  Misc.:
+                  <span class="d-inline d-sm-none"><br></span>
+                <a target="_blank" href="http://sequel.jeremyevans.net/rdoc/files/doc/thread_safety_rdoc.html">Thread Safety</a>
+              </td>
+              <td class="text-right"><code class="text-dark">1,419</code></td>
+            </tr>
+            <tr>
+              <td class="text-right">12</td>
+              <td>
+                  Databases:
+                  <span class="d-inline d-sm-none"><br></span>
+                <a target="_blank" href="http://sequel.jeremyevans.net/rdoc/files/doc/mssql_stored_procedures_rdoc.html">Microsoft SQL Server Stored Procedure Support</a>
+              </td>
+              <td class="text-right"><code class="text-dark">993</code></td>
+            </tr>
+        </tbody>
+      </table>
+    </div>
+</div>
+
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>

@@ -1,0 +1,219 @@
+[
+  {
+    "category": "General Overviews",
+    "index": 1,
+    "title": "README",
+    "url": "http://sequel.jeremyevans.net/rdoc/files/README_rdoc.html",
+    "char_count": 26565
+  },
+  {
+    "category": "General Overviews",
+    "index": 2,
+    "title": "Security",
+    "url": "http://sequel.jeremyevans.net/rdoc/files/doc/security_rdoc.html",
+    "char_count": 13353
+  },
+  {
+    "category": "General Overviews",
+    "index": 3,
+    "title": "Cheat Sheet",
+    "url": "http://sequel.jeremyevans.net/rdoc/files/doc/cheat_sheet_rdoc.html",
+    "char_count": 5325
+  },
+  {
+    "category": "General Overviews",
+    "index": 4,
+    "title": "Sequel for SQL Users",
+    "url": "http://sequel.jeremyevans.net/rdoc/files/doc/sql_rdoc.html",
+    "char_count": 21760
+  },
+  {
+    "category": "General Overviews",
+    "index": 5,
+    "title": "Sequel Object Model",
+    "url": "http://sequel.jeremyevans.net/rdoc/files/doc/object_model_rdoc.html",
+    "char_count": 15821
+  },
+  {
+    "category": "Databases",
+    "index": 6,
+    "title": "Connecting to a Database",
+    "url": "http://sequel.jeremyevans.net/rdoc/files/doc/opening_databases_rdoc.html",
+    "char_count": 17335
+  },
+  {
+    "category": "Databases",
+    "index": 7,
+    "title": "Database Transactions",
+    "url": "http://sequel.jeremyevans.net/rdoc/files/doc/transactions_rdoc.html",
+    "char_count": 8210
+  },
+  {
+    "category": "Databases",
+    "index": 8,
+    "title": "Schema Modification",
+    "url": "http://sequel.jeremyevans.net/rdoc/files/doc/schema_modification_rdoc.html",
+    "char_count": 17477
+  },
+  {
+    "category": "Databases",
+    "index": 9,
+    "title": "Migrations",
+    "url": "http://sequel.jeremyevans.net/rdoc/files/doc/migration_rdoc.html",
+    "char_count": 19990
+  },
+  {
+    "category": "Databases",
+    "index": 10,
+    "title": "Primary/Replica Database Configurations and Sharding",
+    "url": "http://sequel.jeremyevans.net/rdoc/files/doc/sharding_rdoc.html",
+    "char_count": 9716
+  },
+  {
+    "category": "Databases",
+    "index": 11,
+    "title": "PostgreSQL Specific Support",
+    "url": "http://sequel.jeremyevans.net/rdoc/files/doc/postgresql_rdoc.html",
+    "char_count": 18885
+  },
+  {
+    "category": "Databases",
+    "index": 12,
+    "title": "Microsoft SQL Server Stored Procedure Support",
+    "url": "http://sequel.jeremyevans.net/rdoc/files/doc/mssql_stored_procedures_rdoc.html",
+    "char_count": 993
+  },
+  {
+    "category": "Datasets",
+    "index": 13,
+    "title": "Dataset Basics",
+    "url": "http://sequel.jeremyevans.net/rdoc/files/doc/dataset_basics_rdoc.html",
+    "char_count": 3505
+  },
+  {
+    "category": "Datasets",
+    "index": 14,
+    "title": "Dataset Filtering",
+    "url": "http://sequel.jeremyevans.net/rdoc/files/doc/dataset_filtering_rdoc.html",
+    "char_count": 6818
+  },
+  {
+    "category": "Datasets",
+    "index": 15,
+    "title": "Querying in Sequel",
+    "url": "http://sequel.jeremyevans.net/rdoc/files/doc/querying_rdoc.html",
+    "char_count": 28837
+  },
+  {
+    "category": "Datasets",
+    "index": 16,
+    "title": "Prepared Statements/Bound Variables",
+    "url": "http://sequel.jeremyevans.net/rdoc/files/doc/prepared_statements_rdoc.html",
+    "char_count": 4287
+  },
+  {
+    "category": "Datasets",
+    "index": 17,
+    "title": "Virtual Row Blocks",
+    "url": "http://sequel.jeremyevans.net/rdoc/files/doc/virtual_rows_rdoc.html",
+    "char_count": 7053
+  },
+  {
+    "category": "Models",
+    "index": 18,
+    "title": "Model Mass Assignment",
+    "url": "http://sequel.jeremyevans.net/rdoc/files/doc/mass_assignment_rdoc.html",
+    "char_count": 3556
+  },
+  {
+    "category": "Models",
+    "index": 19,
+    "title": "Model Validations",
+    "url": "http://sequel.jeremyevans.net/rdoc/files/doc/validations_rdoc.html",
+    "char_count": 21621
+  },
+  {
+    "category": "Models",
+    "index": 20,
+    "title": "Model Hooks",
+    "url": "http://sequel.jeremyevans.net/rdoc/files/doc/model_hooks_rdoc.html",
+    "char_count": 8890
+  },
+  {
+    "category": "Models",
+    "index": 21,
+    "title": "Model Dataset Method Design",
+    "url": "http://sequel.jeremyevans.net/rdoc/files/doc/model_dataset_method_design_rdoc.html",
+    "char_count": 6167
+  },
+  {
+    "category": "Models",
+    "index": 22,
+    "title": "Model Associations Basics and Options",
+    "url": "http://sequel.jeremyevans.net/rdoc/files/doc/association_basics_rdoc.html",
+    "char_count": 52170
+  },
+  {
+    "category": "Models",
+    "index": 23,
+    "title": "Advanced Model Associations",
+    "url": "http://sequel.jeremyevans.net/rdoc/files/doc/advanced_associations_rdoc.html",
+    "char_count": 29294
+  },
+  {
+    "category": "Models",
+    "index": 24,
+    "title": "Model Plugins",
+    "url": "http://sequel.jeremyevans.net/rdoc/files/doc/model_plugins_rdoc.html",
+    "char_count": 8089
+  },
+  {
+    "category": "Misc.",
+    "index": 25,
+    "title": "Code Order",
+    "url": "http://sequel.jeremyevans.net/rdoc/files/doc/code_order_rdoc.html",
+    "char_count": 3351
+  },
+  {
+    "category": "Misc.",
+    "index": 26,
+    "title": "Reflection",
+    "url": "http://sequel.jeremyevans.net/rdoc/files/doc/reflection_rdoc.html",
+    "char_count": 4951
+  },
+  {
+    "category": "Misc.",
+    "index": 27,
+    "title": "Thread Safety",
+    "url": "http://sequel.jeremyevans.net/rdoc/files/doc/thread_safety_rdoc.html",
+    "char_count": 1419
+  },
+  {
+    "category": "Misc.",
+    "index": 28,
+    "title": "Testing With Sequel",
+    "url": "http://sequel.jeremyevans.net/rdoc/files/doc/testing_rdoc.html",
+    "char_count": 7626
+  },
+  {
+    "category": "Misc.",
+    "index": 29,
+    "title": "Sequel Extensions",
+    "url": "http://sequel.jeremyevans.net/rdoc/files/doc/extensions_rdoc.html",
+    "char_count": 4432
+  },
+  {
+    "category": "Misc.",
+    "index": 30,
+    "title": "Core Extensions",
+    "url": "http://sequel.jeremyevans.net/rdoc/files/doc/core_extensions_rdoc.html",
+    "char_count": 9188
+  },
+  {
+    "category": "Misc.",
+    "index": 31,
+    "title": "bin/sequel",
+    "url": "http://sequel.jeremyevans.net/rdoc/files/doc/bin_sequel_rdoc.html",
+    "char_count": 5336
+  }
+]

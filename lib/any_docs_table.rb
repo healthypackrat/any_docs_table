@@ -6,6 +6,7 @@ require 'any_docs_table/scrapers/mongoid'
 require 'any_docs_table/scrapers/nodejs'
 require 'any_docs_table/scrapers/rails_guides_edge'
 require 'any_docs_table/scrapers/rails_guides_ja'
+require 'any_docs_table/scrapers/sequel'
 require 'any_docs_table/scrapers/typescript_handbook'
 require 'any_docs_table/scrapers/vscode'
 
