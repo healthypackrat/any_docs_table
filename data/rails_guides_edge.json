@@ -4,405 +4,419 @@
     "index": 1,
     "title": "Getting Started with Rails",
     "url": "https://edgeguides.rubyonrails.org/getting_started.html",
-    "char_count": 55404
+    "char_count": 75388
   },
   {
     "category": "Models",
     "index": 2,
     "title": "Active Record Basics",
     "url": "https://edgeguides.rubyonrails.org/active_record_basics.html",
-    "char_count": 10838
+    "char_count": 12521
   },
   {
     "category": "Models",
     "index": 3,
     "title": "Active Record Migrations",
     "url": "https://edgeguides.rubyonrails.org/active_record_migrations.html",
-    "char_count": 27992
+    "char_count": 34555
   },
   {
     "category": "Models",
     "index": 4,
     "title": "Active Record Validations",
     "url": "https://edgeguides.rubyonrails.org/active_record_validations.html",
-    "char_count": 34901
+    "char_count": 45109
   },
   {
     "category": "Models",
     "index": 5,
     "title": "Active Record Callbacks",
     "url": "https://edgeguides.rubyonrails.org/active_record_callbacks.html",
-    "char_count": 12931
+    "char_count": 17222
   },
   {
     "category": "Models",
     "index": 6,
     "title": "Active Record Associations",
     "url": "https://edgeguides.rubyonrails.org/association_basics.html",
-    "char_count": 68251
+    "char_count": 87547
   },
   {
     "category": "Models",
     "index": 7,
     "title": "Active Record Query Interface",
     "url": "https://edgeguides.rubyonrails.org/active_record_querying.html",
-    "char_count": 49945
+    "char_count": 76145
   },
   {
     "category": "Models",
     "index": 8,
     "title": "Active Model Basics",
     "url": "https://edgeguides.rubyonrails.org/active_model_basics.html",
-    "char_count": 10275
+    "char_count": 15680
   },
   {
     "category": "Views",
     "index": 9,
     "title": "Action View Overview",
     "url": "https://edgeguides.rubyonrails.org/action_view_overview.html",
-    "char_count": 40073
+    "char_count": 15870
   },
   {
     "category": "Views",
     "index": 10,
     "title": "Layouts and Rendering in Rails",
     "url": "https://edgeguides.rubyonrails.org/layouts_and_rendering.html",
-    "char_count": 37886
+    "char_count": 46316
   },
   {
     "category": "Views",
     "index": 11,
-    "title": "Action View Form Helpers",
-    "url": "https://edgeguides.rubyonrails.org/form_helpers.html",
-    "char_count": 37499
+    "title": "Action View Helpers",
+    "url": "https://edgeguides.rubyonrails.org/action_view_helpers.html",
+    "char_count": 15478
   },
   {
-    "category": "Controllers",
+    "category": "Views",
     "index": 12,
-    "title": "Action Controller Overview",
-    "url": "https://edgeguides.rubyonrails.org/action_controller_overview.html",
-    "char_count": 44640
+    "title": "Action View Form Helpers",
+    "url": "https://edgeguides.rubyonrails.org/form_helpers.html",
+    "char_count": 46174
   },
   {
     "category": "Controllers",
     "index": 13,
-    "title": "Rails Routing from the Outside In",
-    "url": "https://edgeguides.rubyonrails.org/routing.html",
-    "char_count": 36965
+    "title": "Action Controller Overview",
+    "url": "https://edgeguides.rubyonrails.org/action_controller_overview.html",
+    "char_count": 55832
   },
   {
-    "category": "Other Components",
+    "category": "Controllers",
     "index": 14,
-    "title": "Active Support Core Extensions",
-    "url": "https://edgeguides.rubyonrails.org/active_support_core_extensions.html",
-    "char_count": 87977
+    "title": "Rails Routing from the Outside In",
+    "url": "https://edgeguides.rubyonrails.org/routing.html",
+    "char_count": 47036
   },
   {
     "category": "Other Components",
     "index": 15,
-    "title": "Action Mailer Basics",
-    "url": "https://edgeguides.rubyonrails.org/action_mailer_basics.html",
-    "char_count": 24326
+    "title": "Active Support Core Extensions",
+    "url": "https://edgeguides.rubyonrails.org/active_support_core_extensions.html",
+    "char_count": 119394
   },
   {
     "category": "Other Components",
     "index": 16,
-    "title": "Action Mailbox Basics",
-    "url": "https://edgeguides.rubyonrails.org/action_mailbox_basics.html",
-    "char_count": 10087
+    "title": "Action Mailer Basics",
+    "url": "https://edgeguides.rubyonrails.org/action_mailer_basics.html",
+    "char_count": 31149
   },
   {
     "category": "Other Components",
     "index": 17,
-    "title": "Action Text Overview",
-    "url": "https://edgeguides.rubyonrails.org/action_text_overview.html",
-    "char_count": 3029
+    "title": "Action Mailbox Basics",
+    "url": "https://edgeguides.rubyonrails.org/action_mailbox_basics.html",
+    "char_count": 13281
   },
   {
     "category": "Other Components",
     "index": 18,
-    "title": "Active Job Basics",
-    "url": "https://edgeguides.rubyonrails.org/active_job_basics.html",
-    "char_count": 10471
+    "title": "Action Text Overview",
+    "url": "https://edgeguides.rubyonrails.org/action_text_overview.html",
+    "char_count": 5044
   },
   {
     "category": "Other Components",
     "index": 19,
-    "title": "Active Storage Overview",
-    "url": "https://edgeguides.rubyonrails.org/active_storage_overview.html",
-    "char_count": 20906
+    "title": "Active Job Basics",
+    "url": "https://edgeguides.rubyonrails.org/active_job_basics.html",
+    "char_count": 14738
   },
   {
     "category": "Other Components",
     "index": 20,
-    "title": "Action Cable Overview",
-    "url": "https://edgeguides.rubyonrails.org/action_cable_overview.html",
-    "char_count": 21201
+    "title": "Active Storage Overview",
+    "url": "https://edgeguides.rubyonrails.org/active_storage_overview.html",
+    "char_count": 31387
   },
   {
-    "category": "Digging Deeper",
+    "category": "Other Components",
     "index": 21,
-    "title": "Rails Internationalization (I18n) API",
-    "url": "https://edgeguides.rubyonrails.org/i18n.html",
-    "char_count": 40602
+    "title": "Action Cable Overview",
+    "url": "https://edgeguides.rubyonrails.org/action_cable_overview.html",
+    "char_count": 30151
   },
   {
     "category": "Digging Deeper",
     "index": 22,
-    "title": "Testing Rails Applications",
-    "url": "https://edgeguides.rubyonrails.org/testing.html",
-    "char_count": 56641
+    "title": "Rails Internationalization (I18n) API",
+    "url": "https://edgeguides.rubyonrails.org/i18n.html",
+    "char_count": 50230
   },
   {
     "category": "Digging Deeper",
     "index": 23,
-    "title": "Securing Rails Applications",
-    "url": "https://edgeguides.rubyonrails.org/security.html",
-    "char_count": 65177
+    "title": "Testing Rails Applications",
+    "url": "https://edgeguides.rubyonrails.org/testing.html",
+    "char_count": 71385
   },
   {
     "category": "Digging Deeper",
     "index": 24,
-    "title": "Debugging Rails Applications",
-    "url": "https://edgeguides.rubyonrails.org/debugging_rails_applications.html",
-    "char_count": 27302
+    "title": "Securing Rails Applications",
+    "url": "https://edgeguides.rubyonrails.org/security.html",
+    "char_count": 73086
   },
   {
     "category": "Digging Deeper",
     "index": 25,
-    "title": "Configuring Rails Applications",
-    "url": "https://edgeguides.rubyonrails.org/configuring.html",
-    "char_count": 74941
+    "title": "Debugging Rails Applications",
+    "url": "https://edgeguides.rubyonrails.org/debugging_rails_applications.html",
+    "char_count": 39779
   },
   {
     "category": "Digging Deeper",
     "index": 26,
-    "title": "The Rails Command Line",
-    "url": "https://edgeguides.rubyonrails.org/command_line.html",
-    "char_count": 20850
+    "title": "Configuring Rails Applications",
+    "url": "https://edgeguides.rubyonrails.org/configuring.html",
+    "char_count": 90584
   },
   {
     "category": "Digging Deeper",
     "index": 27,
-    "title": "The Asset Pipeline",
-    "url": "https://edgeguides.rubyonrails.org/asset_pipeline.html",
-    "char_count": 37525
+    "title": "The Rails Command Line",
+    "url": "https://edgeguides.rubyonrails.org/command_line.html",
+    "char_count": 23263
   },
   {
     "category": "Digging Deeper",
     "index": 28,
-    "title": "Working with JavaScript in Rails",
-    "url": "https://edgeguides.rubyonrails.org/working_with_javascript_in_rails.html",
-    "char_count": 14919
+    "title": "The Asset Pipeline",
+    "url": "https://edgeguides.rubyonrails.org/asset_pipeline.html",
+    "char_count": 43590
   },
   {
     "category": "Digging Deeper",
     "index": 29,
-    "title": "The Rails Initialization Process",
-    "url": "https://edgeguides.rubyonrails.org/initialization.html",
-    "char_count": 15584
+    "title": "Working with JavaScript in Rails",
+    "url": "https://edgeguides.rubyonrails.org/working_with_javascript_in_rails.html",
+    "char_count": 19079
   },
   {
     "category": "Digging Deeper",
     "index": 30,
-    "title": "Autoloading and Reloading Constants (Zeitwerk Mode)",
-    "url": "https://edgeguides.rubyonrails.org/autoloading_and_reloading_constants.html",
-    "char_count": 11382
+    "title": "The Rails Initialization Process",
+    "url": "https://edgeguides.rubyonrails.org/initialization.html",
+    "char_count": 21411
   },
   {
     "category": "Digging Deeper",
     "index": 31,
-    "title": "Autoloading and Reloading Constants (Classic Mode)",
-    "url": "https://edgeguides.rubyonrails.org/autoloading_and_reloading_constants_classic_mode.html",
-    "char_count": 32910
+    "title": "Autoloading and Reloading Constants (Zeitwerk Mode)",
+    "url": "https://edgeguides.rubyonrails.org/autoloading_and_reloading_constants.html",
+    "char_count": 16885
   },
   {
     "category": "Digging Deeper",
     "index": 32,
-    "title": "Caching with Rails: An Overview",
-    "url": "https://edgeguides.rubyonrails.org/caching_with_rails.html",
-    "char_count": 22332
+    "title": "Autoloading and Reloading Constants (Classic Mode)",
+    "url": "https://edgeguides.rubyonrails.org/autoloading_and_reloading_constants_classic_mode.html",
+    "char_count": 38978
   },
   {
     "category": "Digging Deeper",
     "index": 33,
-    "title": "Active Support Instrumentation",
-    "url": "https://edgeguides.rubyonrails.org/active_support_instrumentation.html",
-    "char_count": 12752
+    "title": "Caching with Rails: An Overview",
+    "url": "https://edgeguides.rubyonrails.org/caching_with_rails.html",
+    "char_count": 27844
   },
   {
     "category": "Digging Deeper",
     "index": 34,
-    "title": "Using Rails for API-only Applications",
-    "url": "https://edgeguides.rubyonrails.org/api_app.html",
-    "char_count": 13477
+    "title": "Active Support Instrumentation",
+    "url": "https://edgeguides.rubyonrails.org/active_support_instrumentation.html",
+    "char_count": 17377
   },
   {
     "category": "Digging Deeper",
     "index": 35,
-    "title": "Active Record and PostgreSQL",
-    "url": "https://edgeguides.rubyonrails.org/active_record_postgresql.html",
-    "char_count": 9762
+    "title": "Using Rails for API-only Applications",
+    "url": "https://edgeguides.rubyonrails.org/api_app.html",
+    "char_count": 15872
   },
   {
     "category": "Digging Deeper",
     "index": 36,
-    "title": "Multiple Databases with Active Record",
-    "url": "https://edgeguides.rubyonrails.org/active_record_multiple_databases.html",
-    "char_count": 9905
+    "title": "Active Record and PostgreSQL",
+    "url": "https://edgeguides.rubyonrails.org/active_record_postgresql.html",
+    "char_count": 17175
   },
   {
-    "category": "Extending Rails",
+    "category": "Digging Deeper",
     "index": 37,
-    "title": "The Basics of Creating Rails Plugins",
-    "url": "https://edgeguides.rubyonrails.org/plugins.html",
-    "char_count": 9907
+    "title": "Multiple Databases with Active Record",
+    "url": "https://edgeguides.rubyonrails.org/active_record_multiple_databases.html",
+    "char_count": 15822
   },
   {
     "category": "Extending Rails",
     "index": 38,
-    "title": "Rails on Rack",
-    "url": "https://edgeguides.rubyonrails.org/rails_on_rack.html",
-    "char_count": 8068
+    "title": "The Basics of Creating Rails Plugins",
+    "url": "https://edgeguides.rubyonrails.org/plugins.html",
+    "char_count": 15223
   },
   {
     "category": "Extending Rails",
     "index": 39,
-    "title": "Creating and Customizing Rails Generators & Templates",
-    "url": "https://edgeguides.rubyonrails.org/generators.html",
-    "char_count": 19027
+    "title": "Rails on Rack",
+    "url": "https://edgeguides.rubyonrails.org/rails_on_rack.html",
+    "char_count": 10020
   },
   {
     "category": "Extending Rails",
     "index": 40,
-    "title": "Getting Started with Engines",
-    "url": "https://edgeguides.rubyonrails.org/engines.html",
-    "char_count": 46113
+    "title": "Creating and Customizing Rails Generators & Templates",
+    "url": "https://edgeguides.rubyonrails.org/generators.html",
+    "char_count": 24243
   },
   {
     "category": "Extending Rails",
     "index": 41,
-    "title": "Threading and Code Execution in Rails",
-    "url": "https://edgeguides.rubyonrails.org/threading_and_code_execution.html",
-    "char_count": 10269
+    "title": "Getting Started with Engines",
+    "url": "https://edgeguides.rubyonrails.org/engines.html",
+    "char_count": 54117
   },
   {
-    "category": "Contributions",
+    "category": "Extending Rails",
     "index": 42,
-    "title": "Contributing to Ruby on Rails",
-    "url": "https://edgeguides.rubyonrails.org/contributing_to_ruby_on_rails.html",
-    "char_count": 23594
+    "title": "Threading and Code Execution in Rails",
+    "url": "https://edgeguides.rubyonrails.org/threading_and_code_execution.html",
+    "char_count": 11392
   },
   {
     "category": "Contributions",
     "index": 43,
-    "title": "API Documentation Guidelines",
-    "url": "https://edgeguides.rubyonrails.org/api_documentation_guidelines.html",
-    "char_count": 10460
+    "title": "Contributing to Ruby on Rails",
+    "url": "https://edgeguides.rubyonrails.org/contributing_to_ruby_on_rails.html",
+    "char_count": 27542
   },
   {
     "category": "Contributions",
     "index": 44,
+    "title": "API Documentation Guidelines",
+    "url": "https://edgeguides.rubyonrails.org/api_documentation_guidelines.html",
+    "char_count": 13328
+  },
+  {
+    "category": "Contributions",
+    "index": 45,
     "title": "Guides Guidelines",
     "url": "https://edgeguides.rubyonrails.org/ruby_on_rails_guides_guidelines.html",
-    "char_count": 3882
+    "char_count": 4668
   },
   {
     "category": "Policies",
-    "index": 45,
+    "index": 46,
     "title": "Maintenance Policy",
     "url": "https://edgeguides.rubyonrails.org/maintenance_policy.html",
-    "char_count": 2450
-  },
-  {
-    "category": "Release Notes",
-    "index": 46,
-    "title": "Upgrading Ruby on Rails",
-    "url": "https://edgeguides.rubyonrails.org/upgrading_ruby_on_rails.html",
-    "char_count": 61823
+    "char_count": 2452
   },
   {
     "category": "Release Notes",
     "index": 47,
+    "title": "Upgrading Ruby on Rails",
+    "url": "https://edgeguides.rubyonrails.org/upgrading_ruby_on_rails.html",
+    "char_count": 77900
+  },
+  {
+    "category": "Release Notes",
+    "index": 48,
+    "title": "Version 6.1 - May 2020",
+    "url": "https://edgeguides.rubyonrails.org/6_1_release_notes.html",
+    "char_count": 2850
+  },
+  {
+    "category": "Release Notes",
+    "index": 49,
     "title": "Version 6.0 - August 2019",
     "url": "https://edgeguides.rubyonrails.org/6_0_release_notes.html",
     "char_count": 23579
   },
   {
     "category": "Release Notes",
-    "index": 48,
+    "index": 50,
     "title": "Version 5.2 - April 2018",
     "url": "https://edgeguides.rubyonrails.org/5_2_release_notes.html",
     "char_count": 18852
   },
   {
     "category": "Release Notes",
-    "index": 49,
+    "index": 51,
     "title": "Version 5.1 - April 2017",
     "url": "https://edgeguides.rubyonrails.org/5_1_release_notes.html",
-    "char_count": 14109
-  },
-  {
-    "category": "Release Notes",
-    "index": 50,
-    "title": "Version 5.0 - June 2016",
-    "url": "https://edgeguides.rubyonrails.org/5_0_release_notes.html",
-    "char_count": 26772
-  },
-  {
-    "category": "Release Notes",
-    "index": 51,
-    "title": "Version 4.2 - December 2014",
-    "url": "https://edgeguides.rubyonrails.org/4_2_release_notes.html",
-    "char_count": 20982
+    "char_count": 15607
   },
   {
     "category": "Release Notes",
     "index": 52,
-    "title": "Version 4.1 - April 2014",
-    "url": "https://edgeguides.rubyonrails.org/4_1_release_notes.html",
-    "char_count": 17922
+    "title": "Version 5.0 - June 2016",
+    "url": "https://edgeguides.rubyonrails.org/5_0_release_notes.html",
+    "char_count": 27667
   },
   {
     "category": "Release Notes",
     "index": 53,
-    "title": "Version 4.0 - June 2013",
-    "url": "https://edgeguides.rubyonrails.org/4_0_release_notes.html",
-    "char_count": 10703
+    "title": "Version 4.2 - December 2014",
+    "url": "https://edgeguides.rubyonrails.org/4_2_release_notes.html",
+    "char_count": 24293
   },
   {
     "category": "Release Notes",
     "index": 54,
-    "title": "Version 3.2 - January 2012",
-    "url": "https://edgeguides.rubyonrails.org/3_2_release_notes.html",
-    "char_count": 19538
+    "title": "Version 4.1 - April 2014",
+    "url": "https://edgeguides.rubyonrails.org/4_1_release_notes.html",
+    "char_count": 19292
   },
   {
     "category": "Release Notes",
     "index": 55,
-    "title": "Version 3.1 - August 2011",
-    "url": "https://edgeguides.rubyonrails.org/3_1_release_notes.html",
-    "char_count": 19778
+    "title": "Version 4.0 - June 2013",
+    "url": "https://edgeguides.rubyonrails.org/4_0_release_notes.html",
+    "char_count": 11101
   },
   {
     "category": "Release Notes",
     "index": 56,
-    "title": "Version 3.0 - August 2010",
-    "url": "https://edgeguides.rubyonrails.org/3_0_release_notes.html",
-    "char_count": 25175
+    "title": "Version 3.2 - January 2012",
+    "url": "https://edgeguides.rubyonrails.org/3_2_release_notes.html",
+    "char_count": 22330
   },
   {
     "category": "Release Notes",
     "index": 57,
-    "title": "Version 2.3 - March 2009",
-    "url": "https://edgeguides.rubyonrails.org/2_3_release_notes.html",
-    "char_count": 31534
+    "title": "Version 3.1 - August 2011",
+    "url": "https://edgeguides.rubyonrails.org/3_1_release_notes.html",
+    "char_count": 23319
   },
   {
     "category": "Release Notes",
     "index": 58,
+    "title": "Version 3.0 - August 2010",
+    "url": "https://edgeguides.rubyonrails.org/3_0_release_notes.html",
+    "char_count": 26343
+  },
+  {
+    "category": "Release Notes",
+    "index": 59,
+    "title": "Version 2.3 - March 2009",
+    "url": "https://edgeguides.rubyonrails.org/2_3_release_notes.html",
+    "char_count": 35008
+  },
+  {
+    "category": "Release Notes",
+    "index": 60,
     "title": "Version 2.2 - November 2008",
     "url": "https://edgeguides.rubyonrails.org/2_2_release_notes.html",
-    "char_count": 16414
+    "char_count": 19006
   }
 ]
